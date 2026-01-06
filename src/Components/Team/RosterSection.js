@@ -158,6 +158,8 @@ import simrankaur0 from "../../Images/Team/headshots/simrankaur0.png";
 import simrankaur1 from "../../Images/Team/headshots/simrankaur1.png";
 import solomondeyoung0 from "../../Images/Team/headshots/solomondeyoung0.png";
 import solomondeyoung1 from "../../Images/Team/headshots/solomondeyoung1.png";
+import timothywang0 from "../../Images/Team/headshots/timothywang0.png";
+import timothywang1 from "../../Images/Team/headshots/timothywang1.png";
 
 const SectionContainer = styled.div`
 	width: 100vw;
@@ -535,7 +537,7 @@ function RosterSection() {
 		{
 			name: "Timothy Wang",
 			image0: timothywang0,
-			image1: timothywang0,
+			image1: timothywang1,
 			position: "Junior Analyst",
 			major: "BBA 2029",
 			ID: 172,
