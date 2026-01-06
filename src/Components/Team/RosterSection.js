@@ -132,7 +132,32 @@ import zacharyyoonkim0 from "../../Images/Team/headshots/zacharyyoonkim0.png";
 import zacharyyoonkim1 from "../../Images/Team/headshots/zacharyyoonkim1.png";
 
 {/* fall 2025 */}
-
+import aldenking0 from "../../Images/Team/headshots/aldenking0.png";
+import aldenking1 from "../../Images/Team/headshots/aldenking1.png";
+import akashsaini0 from "../../Images/Team/headshots/akashsaini0.png";
+import akashsaini1 from "../../Images/Team/headshots/akashsaini1.png";
+import bettinasoares0 from "../../Images/Team/headshots/bettinasoares0.png";
+import bettinasoares1 from "../../Images/Team/headshots/bettinasoares1.png";
+import chrisbai0 from "../../Images/Team/headshots/chrisbai0.png";
+import chrisbai1 from "../../Images/Team/headshots/chrisbai1.png";
+import danielleshi0 from "../../Images/Team/headshots/danielleshi0.png";
+import danielleshi1 from "../../Images/Team/headshots/danielleshi1.png";
+import farhanibrahim0 from "../../Images/Team/headshots/farhanibrahim0.png";
+import farhanibrahim1 from "../../Images/Team/headshots/farhanibrahim1.png";
+import gemmagow0 from "../../Images/Team/headshots/gemmagow0.png";
+import gemmagow1 from "../../Images/Team/headshots/gemmagow1.png";
+import justinip0 from "../../Images/Team/headshots/justinip0.png";
+import justinip1 from "../../Images/Team/headshots/justinip1.png";
+import mburukarimi0 from "../../Images/Team/headshots/mburukarimi0.png";
+import mburukarimi1 from "../../Images/Team/headshots/mburukarimi1.png";
+import qianyunzhang0 from "../../Images/Team/headshots/qianyunzhang0.png";
+import qianyunzhang1 from "../../Images/Team/headshots/qianyunzhang1.png";
+import rithviktripuraneni0 from "../../Images/Team/headshots/rithviktripuraneni0.png";
+import rithviktripuraneni1 from "../../Images/Team/headshots/rithviktripuraneni1.png";
+import simrankaur0 from "../../Images/Team/headshots/simrankaur0.png";
+import simrankaur1 from "../../Images/Team/headshots/simrankaur1.png";
+import solomondeyoung0 from "../../Images/Team/headshots/solomondeyoung0.png";
+import solomondeyoung1 from "../../Images/Team/headshots/solomondeyoung1.png";
 
 const SectionContainer = styled.div`
 	width: 100vw;
@@ -455,8 +480,8 @@ function RosterSection() {
 		},
 		{
 			name: "Simran Kaur",
-			image0: mburukarimi0,
-			image1: mburukarimi1,
+			image0: simrankaur0,
+			image1: simrankaur1,
 			position: "Junior Analyst",
 			major: "Econ 2028",
 			ID: 166,
@@ -830,7 +855,7 @@ function RosterSection() {
 			name: "Zafir Maker-Agha",
 			image0: zafirmakeragha0,
 			image1: zafirmakeragha1,
-			position: "Senior Manager",
+			position: "Senior Advisor",
 			major: "BBA & Sustainability 2026",
 			ID: 121,
 			url: "https://www.linkedin.com/in/zafir-maker-agha/",
