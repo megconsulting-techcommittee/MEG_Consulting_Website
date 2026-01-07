@@ -992,14 +992,7 @@ function RosterSection() {
 				</a>
 				<NewLine />
 
-				<div
-					style={{
-						display: "flex",
-						flexWrap: "wrap",
-						justifyContent: "center",
-						gap: "2rem",
-					}}
-				>
+				<>
 					{eboardData.slice(1).map((data) => (
 						<a
 							key={data.ID}
@@ -1034,7 +1027,7 @@ function RosterSection() {
 							</CardContainer>
 						</a>
 					))}
-				</div>
+				</>
 			</PositionContainer>
 
 			<PositionContainer>
