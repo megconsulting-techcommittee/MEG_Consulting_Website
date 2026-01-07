@@ -15,7 +15,7 @@ import amory from "../../Images/Team/shadows/amory.png";
 import chris from "../../Images/Team/shadows/chris.png";
 import debangi from "../../Images/Team/shadows/debangi.png";
 
-import teamf23 from "../../Images/Team/teamf23.jpg";
+import teamf25 from "../../Images/Team/teamf25.jpg";
 
 import React, { useState } from "react";
 import NextSection from "../General/NextSection";
@@ -221,105 +221,105 @@ function TeamSection() {
 				>
 					______________________________
 				</TitleText>
-				<TeamImage src={teamf23}></TeamImage>
-				<TeamImage src={teamf23}></TeamImage>
+				<TeamImage src={teamf25}></TeamImage>
+				<TeamImage src={teamf25}></TeamImage>
 				<ShadowContainer
 					style={{
 						opacity: hoverID === 1 ? "0" : hoverID === 0 ? "0" : 1,
 					}}
 				>
-					<TeamImage src={teamf23}></TeamImage>
+					<TeamImage src={teamf25}></TeamImage>
 				</ShadowContainer>
 				<ShadowContainer
 					style={{
 						opacity: hoverID === 2 ? "0" : hoverID === 0 ? "0" : 1,
 					}}
 				>
-					<TeamImage src={teamf23}></TeamImage>
+					<TeamImage src={teamf25}></TeamImage>
 				</ShadowContainer>
 				<ShadowContainer
 					style={{
 						opacity: hoverID === 3 ? "0" : hoverID === 0 ? "0" : 1,
 					}}
 				>
-					<TeamImage src={teamf23}></TeamImage>
+					<TeamImage src={teamf25}></TeamImage>
 				</ShadowContainer>
 				<ShadowContainer
 					style={{
 						opacity: hoverID === 4 ? "0" : hoverID === 0 ? "0" : 1,
 					}}
 				>
-					<TeamImage src={teamf23}></TeamImage>
+					<TeamImage src={teamf25}></TeamImage>
 				</ShadowContainer>
 				<ShadowContainer
 					style={{
 						opacity: hoverID === 5 ? "0" : hoverID === 0 ? "0" : 4,
 					}}
 				>
-					<TeamImage src={teamf23}></TeamImage>
+					<TeamImage src={teamf25}></TeamImage>
 				</ShadowContainer>
 				<ShadowContainer
 					style={{
 						opacity: hoverID === 6 ? "0" : hoverID === 0 ? "0" : 4,
 					}}
 				>
-					<TeamImage src={teamf23}></TeamImage>
+					<TeamImage src={teamf25}></TeamImage>
 				</ShadowContainer>
 				<ShadowContainer
 					style={{
 						opacity: hoverID === 7 ? "0" : hoverID === 0 ? "0" : 4,
 					}}
 				>
-					<TeamImage src={teamf23}></TeamImage>
+					<TeamImage src={teamf25}></TeamImage>
 				</ShadowContainer>
 				<ShadowContainer
 					style={{
 						opacity: hoverID === 8 ? "0" : hoverID === 0 ? "0" : 4,
 					}}
 				>
-					<TeamImage src={teamf23}></TeamImage>
+					<TeamImage src={teamf25}></TeamImage>
 				</ShadowContainer>
 				<ShadowContainer
 					style={{
 						opacity: hoverID === 9 ? "0" : hoverID === 0 ? "0" : 4,
 					}}
 				>
-					<TeamImage src={teamf23}></TeamImage>
+					<TeamImage src={teamf25}></TeamImage>
 				</ShadowContainer>
 				<ShadowContainer
 					style={{
 						opacity: hoverID === 10 ? "0" : hoverID === 0 ? "0" : 4,
 					}}
 				>
-					<TeamImage src={teamf23}></TeamImage>
+					<TeamImage src={teamf25}></TeamImage>
 				</ShadowContainer>
 				<ShadowContainer
 					style={{
 						opacity: hoverID === 11 ? "0" : hoverID === 0 ? "0" : 4,
 					}}
 				>
-					<TeamImage src={teamf23}></TeamImage>
+					<TeamImage src={teamf25}></TeamImage>
 				</ShadowContainer>
 				<ShadowContainer
 					style={{
 						opacity: hoverID === 12 ? "0" : hoverID === 0 ? "0" : 4,
 					}}
 				>
-					<TeamImage src={teamf23}></TeamImage>
+					<TeamImage src={teamf25}></TeamImage>
 				</ShadowContainer>
 				<ShadowContainer
 					style={{
 						opacity: hoverID === 13 ? "0" : hoverID === 0 ? "0" : 4,
 					}}
 				>
-					<TeamImage src={teamf23}></TeamImage>
+					<TeamImage src={teamf25}></TeamImage>
 				</ShadowContainer>
 				<ShadowContainer
 					style={{
 						opacity: hoverID === 14 ? "0" : hoverID === 0 ? "0" : 4,
 					}}
 				>
-					<TeamImage src={teamf23}></TeamImage>
+					<TeamImage src={teamf25}></TeamImage>
 				</ShadowContainer>
 				<HoverContainer>
 					<SvgDesktop>
