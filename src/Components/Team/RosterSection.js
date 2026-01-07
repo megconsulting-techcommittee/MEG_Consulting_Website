@@ -109,7 +109,7 @@ import yaseenmetwally1 from "../../Images/Team/headshots/yaseenmetwally1.png";
 import zafirmakeragha0 from "../../Images/Team/headshots/zafirmakeragha0.png";
 import zafirmakeragha1 from "../../Images/Team/headshots/zafirmakeragha1.png";
 
-{/* winter 2025 */ }
+/* winter 2025 */
 import alexhayes0 from "../../Images/Team/headshots/alexhayes0.png";
 import alexhayes1 from "../../Images/Team/headshots/alexhayes1.png";
 import briankang0 from "../../Images/Team/headshots/briankang0.png";
@@ -131,7 +131,7 @@ import oliviaheithoff1 from "../../Images/Team/headshots/oliviaheithoff1.png";
 import zacharyyoonkim0 from "../../Images/Team/headshots/zacharyyoonkim0.png";
 import zacharyyoonkim1 from "../../Images/Team/headshots/zacharyyoonkim1.png";
 
-{/* fall 2025 */ }
+/* fall 2025 */
 import aldenking0 from "../../Images/Team/headshots/aldenking0.png";
 import aldenking1 from "../../Images/Team/headshots/aldenking1.png";
 import akashsaini0 from "../../Images/Team/headshots/akashsaini0.png";
