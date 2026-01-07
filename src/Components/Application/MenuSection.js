@@ -225,11 +225,11 @@ const SoonContainer = styled.div`
 
 function MenuSection() {
 	const eventDates = [
-		"8/27/2025, 4:30 PM",
-		"9/2/2025, 5:30 PM",
-		"9/8/2025 5:30 PM",
-		"9/14/2025, 7:00 PM",
-		"9/15/2025, 5:00 PM",
+		"1/8/2026, 5:30 PM",
+		"1/12/2026, 4:00 PM",
+		"1/18/2026, 3:00 PM",
+		"1/23/2025, 6:00 PM",
+		"1/25/2026, 5:00 PM",
 	];
 	const eventImages = [
 		central,
@@ -240,28 +240,28 @@ function MenuSection() {
 		apply,
 	];
 	const eventName = [
-		"Festifall",
 		"Meet the Clubs",
+		"Winterfest",
 		"Mass Meeting",
 		"Speed Dating",
 		"DEI/Career Panel",
 		"Application Due",
 	];
 	const eventLocation = [
-		"Table A023",
-		"Ross Winter Garden",
-		"Tauber Colloquium",
-		"R0320",
-		"R0320",
+		"Table 45",
+		"Union Ideahub",
+		"Blau Colloquium",
+		"R0320 & R0420",
+		"Blau B0570",
 		"Online",
 	];
 	const eventTime = [
-		"8/27 at 4:30-6:30 P.M.",
-		"9/3 at 5:30-7:30 P.M.",
-		"9/8 at 5:30-7:30 P.M.",
-		"9/14 at 7:00-8:00 P.M. or 8:00-9:00 P.M.",
-		"9/15 at 5:00-6:30 P.M.",
-		"9/15 by 11:59 P.M.",
+		"1/8 at 5:30-7:30 PM",
+		"1/12 at 4-7 PM",
+		"1/18 at 3-4 PM",
+		"1/23 at 6-9 PM",
+		"1/23 at 6-9 PM",
+		"1/26 at 11:59 PM",
 	];
 
 	function eventDateDetector() {
