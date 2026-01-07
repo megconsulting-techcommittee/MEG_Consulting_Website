@@ -24,6 +24,7 @@ const SectionContainer = styled.div`
 	flex-wrap: wrap;
 	top: -1px;
 	max-width: 100%;
+	font-family: futura-pt, Helvetica, sans-serif;
 `;
 
 const GridContainer = styled.div`
@@ -97,6 +98,7 @@ const FaqContainer = styled.div`
 	width: 20vw;
 	outline: solid 3px #1e1e1e;
 	margin: 1.5px;
+	padding: 2vh 1.5vw;
 	display: flex;
 	align-items: center;
 	justify-content: center;
