@@ -308,7 +308,7 @@ function RosterSection() {
 			position: "President",
 			major: "BBA 2027",
 			ID: 113,
-			url: "https://www.linkedin.com/in/kaitlyn-ko-a59a17255//",
+			url: "https://www.linkedin.com/in/kaitlynko2027/",
 		}, {
 			name: "Rahil Kakar",
 			image0: rahilkakar0,
@@ -348,7 +348,7 @@ function RosterSection() {
 			position: "VP Education",
 			major: "BBA 2028",
 			ID: 144,
-			url: "https://www.linkedin.com/in/kasen-ko-/",
+			url: "https://www.linkedin.com/in/kasen-ko/",
 		},
 		{
 			name: "David Liu",
@@ -357,7 +357,7 @@ function RosterSection() {
 			position: "Conference Co-President",
 			major: "BBA 2028",
 			ID: 141,
-			url: "https://www.linkedin.com/in/https://www.linkedin.com/in/david-liu-826950294/",
+			url: "https://www.linkedin.com/in/david-shang-liu/",
 		}, {
 			name: "Nathan Lucken",
 			image0: nathanlucken0,
@@ -479,7 +479,7 @@ function RosterSection() {
 			position: "Junior Analyst",
 			major: "Econ 2028",
 			ID: 165,
-			url: "https://www.linkedin.com/in/justin-gip/",
+			url: "https://www.linkedin.com/in/mburu-karimi/",
 		},
 		{
 			name: "Simran Kaur",
@@ -488,7 +488,7 @@ function RosterSection() {
 			position: "Junior Analyst",
 			major: "Econ 2028",
 			ID: 166,
-			url: "https://www.linkedin.com/in/justin-gip/",
+			url: "https://www.linkedin.com/in/-simrankaur-/",
 		},
 		{
 			name: "Alden King",
@@ -551,7 +551,7 @@ function RosterSection() {
 			position: "Senior Analyst",
 			major: "BBA 2028",
 			ID: 145,
-			url: "https://www.linkedin.com/in/michelle-baik24/",
+			url: "https://www.linkedin.com/in/michelle-baik/",
 		},
 		{
 			name: "Dylan Chee",
@@ -717,7 +717,7 @@ function RosterSection() {
 			position: "Junior Advisor",
 			major: "BBA 2027",
 			ID: 128,
-			url: "https://www.linkedin.com/in/shiva-rajan78/",
+			url: "https://www.linkedin.com/in/-shivarajan/",
 		},
 		{
 			name: "Arav Rajesh",
