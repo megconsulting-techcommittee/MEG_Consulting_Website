@@ -109,7 +109,7 @@ import yaseenmetwally1 from "../../Images/Team/headshots/yaseenmetwally1.png";
 import zafirmakeragha0 from "../../Images/Team/headshots/zafirmakeragha0.png";
 import zafirmakeragha1 from "../../Images/Team/headshots/zafirmakeragha1.png";
 
-{/* winter 2025 */}
+{/* winter 2025 */ }
 import alexhayes0 from "../../Images/Team/headshots/alexhayes0.png";
 import alexhayes1 from "../../Images/Team/headshots/alexhayes1.png";
 import briankang0 from "../../Images/Team/headshots/briankang0.png";
@@ -131,7 +131,7 @@ import oliviaheithoff1 from "../../Images/Team/headshots/oliviaheithoff1.png";
 import zacharyyoonkim0 from "../../Images/Team/headshots/zacharyyoonkim0.png";
 import zacharyyoonkim1 from "../../Images/Team/headshots/zacharyyoonkim1.png";
 
-{/* fall 2025 */}
+{/* fall 2025 */ }
 import aldenking0 from "../../Images/Team/headshots/aldenking0.png";
 import aldenking1 from "../../Images/Team/headshots/aldenking1.png";
 import akashsaini0 from "../../Images/Team/headshots/akashsaini0.png";
@@ -302,73 +302,73 @@ function RosterSection() {
 
 	const eboardData = [
 		{
-			name: "Patrick Li",
-			image0: patrickli0,
-			image1: patrickli1,
-			position: "President",
-			major: "BBA & Political Science 2026",
-			ID: 102,
-			url: "https://www.linkedin.com/in/patrick-li-6a9296247/",
-		},{
-			name: "Varun Talluri",
-			image0: varuntalluri0,
-			image1: varuntalluri1,
-			position: "VP Recruitment",
-			major: "BBA & CS 2027",
-			ID: 124,
-			url: "https://www.linkedin.com/in/varun-talluri/",
-		},{
 			name: "Kaitlyn Ko",
 			image0: kaitlynko0,
 			image1: kaitlynko1,
-			position: "VP Operations & Finance",
+			position: "President",
 			major: "BBA 2027",
 			ID: 113,
 			url: "https://www.linkedin.com/in/kaitlyn-ko-a59a17255//",
 		}, {
-			name: "Rhea Misra",
-			image0: rheamisra0,
-			image1: rheamisra1,
-			position: "VP Client Development",
-			major: "IOE & CS 2027",
-			ID: 117,
-			url: "https://www.linkedin.com/in/rhea-misra-b15401245/",
+			name: "Rahil Kakar",
+			image0: rahilkakar0,
+			image1: rahilkakar1,
+			position: "VP Recruitment",
+			major: "BBA 2028",
+			ID: 148,
+			url: "https://www.linkedin.com/in/rahil-kakar/",
 		}, {
-			name: "Sydney Goad",
-			image0: sydneygoad0,
-			image1: sydneygoad1,
+			name: "Nacha Ramanathan",
+			image0: nacharamanathan0,
+			image1: nacharamanathan1,
+			position: "VP Operations & Finance",
+			major: "BBA 2028",
+			ID: 143,
+			url: "https://www.linkedin.com/in/nacha-ramanathan/",
+		}, {
+			name: "Olivia Heithoff",
+			image0: oliviaheithoff0,
+			image1: oliviaheithoff1,
+			position: "VP Client Development",
+			major: "BBA 2028",
+			ID: 158,
+			url: "https://www.linkedin.com/in/olivia-heithoff/",
+		}, {
+			name: "Reese Bower",
+			image0: reesebower0,
+			image1: reesebower1,
 			position: "VP External",
-			major: "BBA 2027",
-			ID: 115,
-			url: "https://www.linkedin.com/in/sydney-goad13/",
-		},{
-			name: "John Lee",
-			image0: johnlee0,
-			image1: johnlee1,
-			position: "VP Internal",
-			major: "BBA 2027",
-			ID: 114,
-			url: "https://www.linkedin.com/in/john-y-lee/",
-		},{
-			name: "Isabella Xu",
-			image0: isabellaxu0,
-			image1: isabellaxu1,
-			position: "VP Community Engagement",
-			major: "Econ 2027",
-			ID: 122,
-			url: "https://www.linkedin.com/in/isabellaaxu/",
+			major: "Econ & Public Policy 2028",
+			ID: 147,
+			url: "https://www.linkedin.com/in/reese-bower-79657b330/",
+		}, {
+			name: "Kasen Ko",
+			image0: kasenko0,
+			image1: kasenko1,
+			position: "VP Education",
+			major: "BBA 2028",
+			ID: 144,
+			url: "https://www.linkedin.com/in/kasen-ko-/",
+		},
+		{
+			name: "David Liu",
+			image0: davidliu0,
+			image1: davidliu1,
+			position: "Conference Co-President",
+			major: "BBA 2028",
+			ID: 141,
+			url: "https://www.linkedin.com/in/https://www.linkedin.com/in/david-liu-826950294/",
+		}, {
+			name: "Nathan Lucken",
+			image0: nathanlucken0,
+			image1: nathanlucken1,
+			position: "Conference Co-President",
+			major: "BBA 2028",
+			ID: 146,
+			url: "https://www.linkedin.com/in/nathanlucken/",
 		},
 	];
 	const managerData = [
-		{
-			name: "Michelle Baik",
-			image0: michellebaik0,
-			image1: michellebaik1,
-			position: "Project Manager",
-			major: "BBA 2028",
-			ID: 145,
-			url: "https://www.linkedin.com/in/michelle-baik24/",
-		},
 		{
 			name: "Evelyn Chao",
 			image0: evelynchao0,
@@ -379,50 +379,60 @@ function RosterSection() {
 			url: "https://www.linkedin.com/in/evelyn-chao0616/",
 		},
 		{
-			name: "Olivia Heithoff",
-			image0: oliviaheithoff0,
-			image1: oliviaheithoff1,
+			name: "Alex Hayes",
+			image0: alexhayes0,
+			image1: alexhayes1,
 			position: "Project Manager",
-			major: "BBA 2028",
-			ID: 158,
-			url: "https://www.linkedin.com/in/olivia-heithoff/",
+			major: "Mechanical Engineering 2028",
+			ID: 151,
+			url: "https://www.linkedin.com/in/alexander-john-hayes/",
 		},
 		{
-			name: "Rahil Kakar",
-			image0: rahilkakar0,
-			image1: rahilkakar1,
+			name: "Farhan Ibrahim",
+			image0: farhanibrahim0,
+			image1: farhanibrahim1,
 			position: "Project Manager",
-			major: "BBA 2028",
-			ID: 148,
-			url: "https://www.linkedin.com/in/rahil-kakar/",
+			major: "Biomolecular Science & Econ 2028",
+			ID: 163,
+			url: "https://www.linkedin.com/in/farhaniibrahim/",
 		},
 		{
-			name: "Kasen Ko",
-			image0: kasenko0,
-			image1: kasenko1,
+			name: "Erica Qin",
+			image0: ericaqin0,
+			image1: ericaqin1,
 			position: "Project Manager",
 			major: "BBA 2028",
-			ID: 144,
-			url: "https://www.linkedin.com/in/kasen-ko-/",
+			ID: 155,
+			url: "https://www.linkedin.com/in/erica-qin/",
 		},
 		{
-			name: "David Liu",
-			image0: davidliu0,
-			image1: davidliu1,
+			name: "Natasha Shimon",
+			image0: natashashimon0,
+			image1: natashashimon1,
 			position: "Project Manager",
-			major: "BBA 2028",
-			ID: 141,
-			url: "https://www.linkedin.com/in/https://www.linkedin.com/in/david-liu-826950294/",
+			major: "Data Science 2027",
+			ID: 126,
+			url: "https://www.linkedin.com/in/natasha-shimon-10676b249/",
 		},
 		{
-			name: "Dylan Wang",
-			image0: dylanwang0,
-			image1: dylanwang1,
+			name: "Chloe Tjakra",
+			image0: chloetjakra0,
+			image1: chloetjakra1,
+			position: "Project Manager",
+			major: "Data Science 2028",
+			ID: 140,
+			url: "https://www.linkedin.com/in/chloe-tjakra-ba566a336/",
+		},
+		{
+			name: "Rithvik Tripurareni",
+			image0: rithviktripuraneni0,
+			image1: rithviktripuraneni1,
 			position: "Project Manager",
 			major: "BBA 2028",
-			ID: 142,
-			url: "https://www.linkedin.com/in/dylan-wang-018047261/",
+			ID: 171,
+			url: "https://www.linkedin.com/in/rithvik-tripuraneni/",
 		},
+
 	];
 
 	const analystData = [
@@ -452,15 +462,6 @@ function RosterSection() {
 			major: "BBA 2029",
 			ID: 162,
 			url: "https://www.linkedin.com/in/gemmaygow/",
-		},
-		{
-			name: "Farhan Ibrahim",
-			image0: farhanibrahim0,
-			image1: farhanibrahim1,
-			position: "Junior Analyst",
-			major: "Biomolecular Science & Econ 2028",
-			ID: 163,
-			url: "https://www.linkedin.com/in/farhaniibrahim/",
 		},
 		{
 			name: "Justin Ip",
@@ -526,15 +527,6 @@ function RosterSection() {
 			url: "https://www.linkedin.com/in/bettina-soares/",
 		},
 		{
-			name: "Rithvik Tripurareni",
-			image0: rithviktripuraneni0,
-			image1: rithviktripuraneni1,
-			position: "Junior Analyst",
-			major: "BBA 2028",
-			ID: 171,
-			url: "https://www.linkedin.com/in/rithvik-tripuraneni/",
-		},
-		{
 			name: "Timothy Wang",
 			image0: timothywang0,
 			image1: timothywang1,
@@ -551,6 +543,15 @@ function RosterSection() {
 			major: "CS & Math 2029",
 			ID: 173,
 			url: "https://www.linkedin.com/in/qian-yun-zhang-555291346/",
+		},
+		{
+			name: "Michelle Baik",
+			image0: michellebaik0,
+			image1: michellebaik1,
+			position: "Senior Analyst",
+			major: "BBA 2028",
+			ID: 145,
+			url: "https://www.linkedin.com/in/michelle-baik24/",
 		},
 		{
 			name: "Dylan Chee",
@@ -571,13 +572,13 @@ function RosterSection() {
 			url: "https://www.linkedin.com/in/hojun-do/",
 		},
 		{
-			name: "Alex Hayes",
-			image0: alexhayes0,
-			image1: alexhayes1,
+			name: "Simryn Jawanda",
+			image0: simrynjawanda0,
+			image1: simrynjawanda1,
 			position: "Senior Analyst",
-			major: "Mechanical Engineering 2028",
-			ID: 151,
-			url: "https://www.linkedin.com/in/alexander-john-hayes/",
+			major: "BBA 2028",
+			ID: 150,
+			url: "https://www.linkedin.com/in/simryn-jawanda-a25531207/",
 		},
 		{
 			name: "Brian Kang",
@@ -598,22 +599,13 @@ function RosterSection() {
 			url: "https://www.linkedin.com/in/brian-kim11/",
 		},
 		{
-			name: "Nacha Ramanathan",
-			image0: nacharamanathan0,
-			image1: nacharamanathan1,
+			name: "Dylan Wang",
+			image0: dylanwang0,
+			image1: dylanwang1,
 			position: "Senior Analyst",
 			major: "BBA 2028",
-			ID: 143,
-			url: "https://www.linkedin.com/in/nacha-ramanathan/",
-		},
-		{
-			name: "Erica Qin",
-			image0: ericaqin0,
-			image1: ericaqin1,
-			position: "Senior Analyst",
-			major: "BBA 2028",
-			ID: 155,
-			url: "https://www.linkedin.com/in/erica-qin/",
+			ID: 142,
+			url: "https://www.linkedin.com/in/dylan-wang-018047261/",
 		},
 		{
 			name: "Zachary Yoon-Kim",
@@ -623,42 +615,6 @@ function RosterSection() {
 			major: "Econ & CS 2028",
 			ID: 159,
 			url: "https://www.linkedin.com/in/zachary-yoon-kim/",
-		},
-		{
-			name: "Reese Bower",
-			image0: reesebower0,
-			image1: reesebower1,
-			position: "Senior Analyst",
-			major: "Econ & Public Policy 2028",
-			ID: 147,
-			url: "https://www.linkedin.com/in/reese-bower-79657b330/",
-		},
-		{
-			name: "Simryn Jawanda",
-			image0: simrynjawanda0,
-			image1: simrynjawanda1,
-			position: "Senior Analyst",
-			major: "BBA 2028",
-			ID: 150,
-			url: "https://www.linkedin.com/in/simryn-jawanda-a25531207/",
-		},
-		{
-			name: "Nathan Lucken",
-			image0: nathanlucken0,
-			image1: nathanlucken1,
-			position: "Senior Analyst",
-			major: "BBA 2028",
-			ID: 146,
-			url: "https://www.linkedin.com/in/nathanlucken/",
-		},
-		{
-			name: "Chloe Tjakra",
-			image0: chloetjakra0,
-			image1: chloetjakra1,
-			position: "Senior Analyst",
-			major: "Data Science 2028",
-			ID: 140,
-			url: "https://www.linkedin.com/in/chloe-tjakra-ba566a336/",
 		},
 	];
 
@@ -683,6 +639,15 @@ function RosterSection() {
 			url: "https://www.linkedin.com/in/alishasgandhi/",
 		},
 		{
+			name: "Sydney Goad",
+			image0: sydneygoad0,
+			image1: sydneygoad1,
+			position: "Junior Advisor",
+			major: "Junior Advisor",
+			ID: 115,
+			url: "https://www.linkedin.com/in/sydney-goad13/",
+		},
+		{
 			name: "Issei Hata",
 			image0: isseihata0,
 			image1: isseihata1,
@@ -701,6 +666,15 @@ function RosterSection() {
 			url: "https://www.linkedin.com/in/calebjl/",
 		},
 		{
+			name: "John Lee",
+			image0: johnlee0,
+			image1: johnlee1,
+			position: "VP Internal",
+			major: "Junior Advisor",
+			ID: 114,
+			url: "https://www.linkedin.com/in/john-y-lee/",
+		},
+		{
 			name: "Cynthia Li",
 			image0: cynthiali0,
 			image1: cynthiali1,
@@ -717,6 +691,15 @@ function RosterSection() {
 			major: "BBA & CS 2027",
 			ID: 125,
 			url: "https://www.linkedin.com/in/sriyanm/",
+		},
+		{
+			name: "Rhea Misra",
+			image0: rheamisra0,
+			image1: rheamisra1,
+			position: "Junior Advisor",
+			major: "IOE & CS 2027",
+			ID: 117,
+			url: "https://www.linkedin.com/in/rhea-misra-b15401245/",
 		},
 		{
 			name: "Rafael Opperman",
@@ -764,13 +747,13 @@ function RosterSection() {
 			url: "https://www.linkedin.com/in/archan-senthilvanan/",
 		},
 		{
-			name: "Natasha Shimon",
-			image0: natashashimon0,
-			image1: natashashimon1,
+			name: "Varun Talluri",
+			image0: varuntalluri0,
+			image1: varuntalluri1,
 			position: "Junior Advisor",
-			major: "Data Science 2027",
-			ID: 126,
-			url: "https://www.linkedin.com/in/natasha-shimon-10676b249/",
+			major: "BBA & CS 2027",
+			ID: 124,
+			url: "https://www.linkedin.com/in/varun-talluri/",
 		},
 		{
 			name: "Anish Thatiparthi",
@@ -791,6 +774,15 @@ function RosterSection() {
 			url: "https://www.linkedin.com/in/aditi-vadakath/",
 		},
 		{
+			name: "Isabella Xu",
+			image0: isabellaxu0,
+			image1: isabellaxu1,
+			position: "Junior Advisor",
+			major: "Econ 2027",
+			ID: 122,
+			url: "https://www.linkedin.com/in/isabellaaxu/",
+		},
+		{
 			name: "Ava Kurtz",
 			image0: avakurtz1,
 			image1: avakurtz0,
@@ -798,7 +790,7 @@ function RosterSection() {
 			ID: 135,
 			position: "Senior Advisor",
 			major: "Econ 2026",
-		}, 
+		},
 		{
 			name: "Saathvik Hari",
 			image0: saathvikhari0,
@@ -816,7 +808,7 @@ function RosterSection() {
 			major: "BBA 2026",
 			ID: 137,
 			url: "https://www.linkedin.com/in/sydney-gaynor/",
-		}, 
+		},
 		{
 			name: "Niyati Kashyap",
 			image0: niyatikashyap0,
@@ -852,6 +844,15 @@ function RosterSection() {
 			major: "BBA & Information Analytics 2026",
 			ID: 106,
 			url: "https://www.linkedin.com/in/leo-leone-792515223/",
+		},
+		{
+			name: "Patrick Li",
+			image0: patrickli0,
+			image1: patrickli1,
+			position: "Senior Advisor",
+			major: "BBA & Political Science 2026",
+			ID: 102,
+			url: "https://www.linkedin.com/in/patrick-li-6a9296247/",
 		},
 		{
 			name: "Zafir Maker-Agha",
@@ -947,95 +948,95 @@ function RosterSection() {
 
 	return (
 		<SectionContainer>
-<PositionContainer>
-		<SmallSpacer />
-		<TextContainer>
-			<TitleText style={{ marginLeft: "2vmin" }}>
-				Executive Board
-			</TitleText>
-		</TextContainer>
-
-		<NewLine />
-
-		{/* president on top row alone */}
-		<a
-			href={eboardData[0].url}
-			target="_blank"
-			style={{ textDecoration: "none" }}
-		>
-			<CardContainer style={{ margin: "0 auto" }}>
-				<CardImage
-					style={{
-						backgroundImage: `url(${eboardData[0].image0})`,
-					}}
-				/>
-				<CardImageHover
-					onMouseEnter={() => setHoverID2(eboardData[0].ID)}
-					onMouseLeave={() => setHoverID2(0)}
-					style={{
-						opacity: hoverID2 === eboardData[0].ID ? "100%" : "0%",
-						backgroundImage: `url(${eboardData[0].image1})`,
-					}}
-				/>
-				<NewLine />
+			<PositionContainer>
+				<SmallSpacer />
 				<TextContainer>
-					<CardTitle>{eboardData[0].name}</CardTitle>
-					<TinySpacer />
-					<CardHeader>
-						{hoverID2 === eboardData[0].ID
-							? eboardData[0].major
-							: eboardData[0].position}
-					</CardHeader>
+					<TitleText style={{ marginLeft: "2vmin" }}>
+						Executive Board
+					</TitleText>
 				</TextContainer>
-			</CardContainer>
-		</a>
-		<NewLine />
 
-		<div
-			style={{
-				display: "flex",
-				flexWrap: "wrap",
-				justifyContent: "center",
-				gap: "2rem",
-			}}
-		>
-			{eboardData.slice(1).map((data) => (
+				<NewLine />
+
+				{/* president on top row alone */}
 				<a
-					key={data.ID}
-					href={data.url}
+					href={eboardData[0].url}
 					target="_blank"
 					style={{ textDecoration: "none" }}
 				>
-					<CardContainer>
+					<CardContainer style={{ margin: "0 auto" }}>
 						<CardImage
 							style={{
-								backgroundImage: `url(${data.image0})`,
+								backgroundImage: `url(${eboardData[0].image0})`,
 							}}
 						/>
 						<CardImageHover
-							onMouseEnter={() => setHoverID2(data.ID)}
+							onMouseEnter={() => setHoverID2(eboardData[0].ID)}
 							onMouseLeave={() => setHoverID2(0)}
 							style={{
-								opacity: hoverID2 === data.ID ? "100%" : "0%",
-								backgroundImage: `url(${data.image1})`,
+								opacity: hoverID2 === eboardData[0].ID ? "100%" : "0%",
+								backgroundImage: `url(${eboardData[0].image1})`,
 							}}
 						/>
 						<NewLine />
 						<TextContainer>
-							<CardTitle>{data.name}</CardTitle>
+							<CardTitle>{eboardData[0].name}</CardTitle>
 							<TinySpacer />
 							<CardHeader>
-								{hoverID2 === data.ID
-									? data.major
-									: data.position}
+								{hoverID2 === eboardData[0].ID
+									? eboardData[0].major
+									: eboardData[0].position}
 							</CardHeader>
 						</TextContainer>
 					</CardContainer>
 				</a>
-			))}
-		</div>
-	</PositionContainer>
-		
+				<NewLine />
+
+				<div
+					style={{
+						display: "flex",
+						flexWrap: "wrap",
+						justifyContent: "center",
+						gap: "2rem",
+					}}
+				>
+					{eboardData.slice(1).map((data) => (
+						<a
+							key={data.ID}
+							href={data.url}
+							target="_blank"
+							style={{ textDecoration: "none" }}
+						>
+							<CardContainer>
+								<CardImage
+									style={{
+										backgroundImage: `url(${data.image0})`,
+									}}
+								/>
+								<CardImageHover
+									onMouseEnter={() => setHoverID2(data.ID)}
+									onMouseLeave={() => setHoverID2(0)}
+									style={{
+										opacity: hoverID2 === data.ID ? "100%" : "0%",
+										backgroundImage: `url(${data.image1})`,
+									}}
+								/>
+								<NewLine />
+								<TextContainer>
+									<CardTitle>{data.name}</CardTitle>
+									<TinySpacer />
+									<CardHeader>
+										{hoverID2 === data.ID
+											? data.major
+											: data.position}
+									</CardHeader>
+								</TextContainer>
+							</CardContainer>
+						</a>
+					))}
+				</div>
+			</PositionContainer>
+
 			<PositionContainer>
 				<SmallSpacer />
 				<TextContainer>
@@ -1046,9 +1047,9 @@ function RosterSection() {
 				<NewLine />
 				{managerData.map((data) => (
 					<a
-					href={data.url}
-					target="_blank"
-					style={{ textDecoration: "none" }}
+						href={data.url}
+						target="_blank"
+						style={{ textDecoration: "none" }}
 					>
 						<CardContainer>
 							<CardImage
@@ -1067,8 +1068,8 @@ function RosterSection() {
 								<CardTitle>{data.name}</CardTitle>
 								<TinySpacer />
 								<CardHeader>
-										{hoverID2 === data.ID ? data.major : data.position}
-									</CardHeader>
+									{hoverID2 === data.ID ? data.major : data.position}
+								</CardHeader>
 
 								<CardHeaderHover
 									onMouseEnter={() => setHoverID2(data.ID)}
@@ -1116,16 +1117,16 @@ function RosterSection() {
 								<CardTitle>{data.name}</CardTitle>
 								<TinySpacer />
 								<CardHeader>
-                    				{hoverID2 === data.ID ? data.major : data.position}
-                				</CardHeader>
+									{hoverID2 === data.ID ? data.major : data.position}
+								</CardHeader>
 
-							<CardHeaderHover
-								onMouseEnter={() => setHoverID2(data.ID)}
-								onMouseLeave={() => setHoverID2(0)}
-								style={{
-									backgroundImage: `url(${data.image1})`,
-								}}
-                			/>
+								<CardHeaderHover
+									onMouseEnter={() => setHoverID2(data.ID)}
+									onMouseLeave={() => setHoverID2(0)}
+									style={{
+										backgroundImage: `url(${data.image1})`,
+									}}
+								/>
 							</TextContainer>
 						</CardContainer>
 					</a>
@@ -1166,16 +1167,16 @@ function RosterSection() {
 								<CardTitle>{data.name}</CardTitle>
 								<TinySpacer />
 								<CardHeader>
-                    				{hoverID2 === data.ID ? data.major : data.position}
-                				</CardHeader>
+									{hoverID2 === data.ID ? data.major : data.position}
+								</CardHeader>
 
-							<CardHeaderHover
-								onMouseEnter={() => setHoverID2(data.ID)}
-								onMouseLeave={() => setHoverID2(0)}
-								style={{
-									backgroundImage: `url(${data.image1})`,
-								}}
-                			/>
+								<CardHeaderHover
+									onMouseEnter={() => setHoverID2(data.ID)}
+									onMouseLeave={() => setHoverID2(0)}
+									style={{
+										backgroundImage: `url(${data.image1})`,
+									}}
+								/>
 							</TextContainer>
 						</CardContainer>
 					</a>
