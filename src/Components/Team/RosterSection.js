@@ -479,7 +479,7 @@ function RosterSection() {
 			position: "Junior Analyst",
 			major: "Econ 2028",
 			ID: 165,
-			url: "https://www.linkedin.com/in/justin-gip/",
+			url: "https://www.linkedin.com/in/mburu-karimi/",
 		},
 		{
 			name: "Simran Kaur",
@@ -488,7 +488,7 @@ function RosterSection() {
 			position: "Junior Analyst",
 			major: "Econ 2028",
 			ID: 166,
-			url: "https://www.linkedin.com/in/justin-gip/",
+			url: "https://www.linkedin.com/in/-simrankaur-/",
 		},
 		{
 			name: "Alden King",
@@ -1035,7 +1035,7 @@ function RosterSection() {
 					</CardContainer>
 				</a>
 			))}
-			
+
 			</PositionContainer>
 			<PositionContainer>
 				<SmallSpacer />
