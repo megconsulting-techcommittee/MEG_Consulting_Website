@@ -329,7 +329,7 @@ function RosterSection() {
 			name: "Olivia Heithoff",
 			image0: oliviaheithoff0,
 			image1: oliviaheithoff1,
-			position: "VP Client Development",
+			position: "VP Client Acquisition",
 			major: "BBA 2028",
 			ID: 158,
 			url: "https://www.linkedin.com/in/olivia-heithoff/",
@@ -959,82 +959,82 @@ function RosterSection() {
 				<NewLine />
 
 				{eboardData.map((data) => (
-				<a
-					key={data.ID}
-					href={data.url}
-					target="_blank"
-					style={{ textDecoration: "none" }}
-				>
-					<CardContainer>
-					<CardImage
-						style={{ backgroundImage: `url(${data.image0})` }}
-					/>
-					<CardImageHover
-						onMouseEnter={() => setHoverID2(data.ID)}
-						onMouseLeave={() => setHoverID2(0)}
-						style={{
-						opacity: hoverID2 === data.ID ? "100%" : "0%",
-						backgroundImage: `url(${data.image1})`,
-						}}
-					/>
-					<NewLine />
-					<TextContainer>
-						<CardTitle>{data.name}</CardTitle>
-						<TinySpacer />
-						<CardHeader>
-						{hoverID2 === data.ID ? data.major : data.position}
-						</CardHeader>
-					</TextContainer>
-					</CardContainer>
-				</a>
-				))}
-		</PositionContainer>
-
-		<PositionContainer>
-			<SmallSpacer />
-			<TextContainer>
-				<TitleText style={{ marginLeft: "2vmin" }}>
-					Project Managers
-				</TitleText>
-			</TextContainer>
-			<NewLine />
-			{managerData.map((data) => (
-				<a
-					href={data.url}
-					target="_blank"
-					style={{ textDecoration: "none" }}
-				>
-					<CardContainer>
-						<CardImage
-							style={{ backgroundImage: `url(${data.image0})` }}
-						/>
-						<CardImageHover
-							onMouseEnter={() => setHoverID2(data.ID)}
-							onMouseLeave={() => setHoverID2(0)}
-							style={{
-								opacity: hoverID2 === data.ID ? "100%" : "0%",
-								backgroundImage: `url(${data.image1})`,
-							}}
-						/>
-						<NewLine />
-						<TextContainer>
-							<CardTitle>{data.name}</CardTitle>
-							<TinySpacer />
-							<CardHeader>
-								{hoverID2 === data.ID ? data.major : data.position}
-							</CardHeader>
-
-							<CardHeaderHover
+					<a
+						key={data.ID}
+						href={data.url}
+						target="_blank"
+						style={{ textDecoration: "none" }}
+					>
+						<CardContainer>
+							<CardImage
+								style={{ backgroundImage: `url(${data.image0})` }}
+							/>
+							<CardImageHover
 								onMouseEnter={() => setHoverID2(data.ID)}
 								onMouseLeave={() => setHoverID2(0)}
 								style={{
+									opacity: hoverID2 === data.ID ? "100%" : "0%",
 									backgroundImage: `url(${data.image1})`,
 								}}
 							/>
-						</TextContainer>
-					</CardContainer>
-				</a>
-			))}
+							<NewLine />
+							<TextContainer>
+								<CardTitle>{data.name}</CardTitle>
+								<TinySpacer />
+								<CardHeader>
+									{hoverID2 === data.ID ? data.major : data.position}
+								</CardHeader>
+							</TextContainer>
+						</CardContainer>
+					</a>
+				))}
+			</PositionContainer>
+
+			<PositionContainer>
+				<SmallSpacer />
+				<TextContainer>
+					<TitleText style={{ marginLeft: "2vmin" }}>
+						Project Managers
+					</TitleText>
+				</TextContainer>
+				<NewLine />
+				{managerData.map((data) => (
+					<a
+						href={data.url}
+						target="_blank"
+						style={{ textDecoration: "none" }}
+					>
+						<CardContainer>
+							<CardImage
+								style={{ backgroundImage: `url(${data.image0})` }}
+							/>
+							<CardImageHover
+								onMouseEnter={() => setHoverID2(data.ID)}
+								onMouseLeave={() => setHoverID2(0)}
+								style={{
+									opacity: hoverID2 === data.ID ? "100%" : "0%",
+									backgroundImage: `url(${data.image1})`,
+								}}
+							/>
+							<NewLine />
+							<TextContainer>
+								<CardTitle>{data.name}</CardTitle>
+								<TinySpacer />
+								<CardHeader>
+									{hoverID2 === data.ID ? data.major : data.position}
+								</CardHeader>
+
+								<CardHeaderHover
+									onMouseEnter={() => setHoverID2(data.ID)}
+									onMouseLeave={() => setHoverID2(0)}
+									style={{
+										backgroundImage: `url(${data.image1})`,
+									}}
+								/>
+							</TextContainer>
+						</CardContainer>
+					</a>
+				))}
 
 			</PositionContainer>
 			<PositionContainer>
