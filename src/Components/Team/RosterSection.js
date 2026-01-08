@@ -299,7 +299,7 @@ function RosterSection() {
 			position: "President",
 			major: "BBA 2027",
 			ID: 113,
-			url: "https://www.linkedin.com/in/kaitlyn-ko-a59a17255//",
+			url: "https://www.linkedin.com/in/kaitlyn-ko-a59a17255/",
 		}, {
 			name: "Rahil Kakar",
 			image0: rahilkakar0,
@@ -977,6 +977,9 @@ function RosterSection() {
 								</TextContainer>
 							</CardContainer>
 						</a>
+
+						{/* force break after president */}
+						{idx === 0 && <NewLine />}
 					</>
 				))}
 			</PositionContainer>
