@@ -1,15 +1,6 @@
 import styled from "styled-components";
 import { useState } from "react";
 
-import brandon0 from "../../Images/Team/headshots/brandon0.png";
-import brandon1 from "../../Images/Team/headshots/brandon1.png";
-import anish0 from "../../Images/Team/headshots/anish0.png";
-import anish1 from "../../Images/Team/headshots/anish1.png";
-import kapil0 from "../../Images/Team/headshots/kapil0.png";
-import kapil1 from "../../Images/Team/headshots/kapil1.png";
-import lawder0 from "../../Images/Team/headshots/lawder0.png";
-import lawder1 from "../../Images/Team/headshots/lawder1.png";
-
 import aditivadakath0 from "../../Images/Team/headshots/aditivadakath0.png";
 import aditivadakath1 from "../../Images/Team/headshots/aditivadakath1.png";
 import alishagandhi0 from "../../Images/Team/headshots/alishagandhi0.png";
@@ -34,8 +25,6 @@ import cynthiali0 from "../../Images/Team/headshots/cynthiali0.png";
 import cynthiali1 from "../../Images/Team/headshots/cynthiali1.png";
 import davidliu0 from "../../Images/Team/headshots/davidliu0.png";
 import davidliu1 from "../../Images/Team/headshots/davidliu1.png";
-import debangimohanta0 from "../../Images/Team/headshots/debangimohanta0.png";
-import debangimohanta1 from "../../Images/Team/headshots/debangimohanta1.png";
 import dylanwang0 from "../../Images/Team/headshots/dylanwang0.png";
 import dylanwang1 from "../../Images/Team/headshots/dylanwang1.png";
 import evakumer0 from "../../Images/Team/headshots/evakumer0.png";
@@ -102,8 +91,6 @@ import sydneygoad0 from "../../Images/Team/headshots/sydneygoad0.png";
 import sydneygoad1 from "../../Images/Team/headshots/sydneygoad1.png";
 import varuntalluri0 from "../../Images/Team/headshots/varuntalluri0.png";
 import varuntalluri1 from "../../Images/Team/headshots/varuntalluri1.png";
-import viveknukala0 from "../../Images/Team/headshots/viveknukala0.png";
-import viveknukala1 from "../../Images/Team/headshots/viveknukala1.png";
 import yaseenmetwally0 from "../../Images/Team/headshots/yaseenmetwally0.png";
 import yaseenmetwally1 from "../../Images/Team/headshots/yaseenmetwally1.png";
 import zafirmakeragha0 from "../../Images/Team/headshots/zafirmakeragha0.png";
