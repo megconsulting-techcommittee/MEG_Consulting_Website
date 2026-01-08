@@ -660,8 +660,8 @@ function RosterSection() {
 			name: "John Lee",
 			image0: johnlee0,
 			image1: johnlee1,
-			position: "VP Internal",
-			major: "Junior Advisor",
+			position: "Junior Advisor",
+			major: "BBA & Chinese 2027",
 			ID: 114,
 			url: "https://www.linkedin.com/in/john-y-lee/",
 		},
@@ -977,9 +977,6 @@ function RosterSection() {
 								</TextContainer>
 							</CardContainer>
 						</a>
-
-						{/* force break after president */}
-						{idx === 0 && <NewLine />}
 					</>
 				))}
 			</PositionContainer>
