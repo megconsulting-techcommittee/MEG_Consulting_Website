@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import team from "../../Images/Team/team1.jpg";
 import vivek from "../../Images/Team/shadows/vivek.png";
 import sydney from "../../Images/Team/shadows/sydney.png";
 import siri from "../../Images/Team/shadows/siri.png";
@@ -1671,9 +1670,9 @@ function TeamSection() {
 					</b>
 				</BodyText>
 			</TextContainer>
-			
+
 			<TextContainer style={{ display: hoverID !== 0 ? "flex" : "none" }}>
-			<TitleText style={{ textAlign: "center" }}>
+				<TitleText style={{ textAlign: "center" }}>
 					Meet The Members
 				</TitleText>
 				<SmallSpacer />
