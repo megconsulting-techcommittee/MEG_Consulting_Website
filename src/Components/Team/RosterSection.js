@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import { useState } from "react";
 
+
+
 import aditivadakath0 from "../../Images/Team/headshots/aditivadakath0.png";
 import aditivadakath1 from "../../Images/Team/headshots/aditivadakath1.png";
 import alishagandhi0 from "../../Images/Team/headshots/alishagandhi0.png";
@@ -25,6 +27,8 @@ import cynthiali0 from "../../Images/Team/headshots/cynthiali0.png";
 import cynthiali1 from "../../Images/Team/headshots/cynthiali1.png";
 import davidliu0 from "../../Images/Team/headshots/davidliu0.png";
 import davidliu1 from "../../Images/Team/headshots/davidliu1.png";
+import debangimohanta0 from "../../Images/Team/headshots/debangimohanta0.png";
+import debangimohanta1 from "../../Images/Team/headshots/debangimohanta1.png";
 import dylanwang0 from "../../Images/Team/headshots/dylanwang0.png";
 import dylanwang1 from "../../Images/Team/headshots/dylanwang1.png";
 import evakumer0 from "../../Images/Team/headshots/evakumer0.png";
@@ -96,7 +100,7 @@ import yaseenmetwally1 from "../../Images/Team/headshots/yaseenmetwally1.png";
 import zafirmakeragha0 from "../../Images/Team/headshots/zafirmakeragha0.png";
 import zafirmakeragha1 from "../../Images/Team/headshots/zafirmakeragha1.png";
 
-{/* winter 2025 */ }
+/* winter 2025 */
 import alexhayes0 from "../../Images/Team/headshots/alexhayes0.png";
 import alexhayes1 from "../../Images/Team/headshots/alexhayes1.png";
 import briankang0 from "../../Images/Team/headshots/briankang0.png";
@@ -118,7 +122,7 @@ import oliviaheithoff1 from "../../Images/Team/headshots/oliviaheithoff1.png";
 import zacharyyoonkim0 from "../../Images/Team/headshots/zacharyyoonkim0.png";
 import zacharyyoonkim1 from "../../Images/Team/headshots/zacharyyoonkim1.png";
 
-{/* fall 2025 */ }
+/* fall 2025 */
 import aldenking0 from "../../Images/Team/headshots/aldenking0.png";
 import aldenking1 from "../../Images/Team/headshots/aldenking1.png";
 import akashsaini0 from "../../Images/Team/headshots/akashsaini0.png";
@@ -187,14 +191,14 @@ const CardContainer = styled.div`
 `;
 
 const CardImage = styled.div`
-	background-image: url(${brandon0});
+	background-image: url(${ericaqin0});
 	width: 36vmin;
 	height: 44vmin;
 	background-size: cover;
 `;
 
 const CardImageHover = styled.div`
-	background-image: url(${brandon1});
+	background-image: url(${ericaqin1});
 	width: 36vmin;
 	height: 44vmin;
 	background-size: cover;
@@ -332,10 +336,10 @@ function RosterSection() {
 			name: "Kasen Ko",
 			image0: kasenko0,
 			image1: kasenko1,
-			position: "VP Education",
+			position: "VP Professional Development",
 			major: "BBA 2028",
 			ID: 144,
-			url: "https://www.linkedin.com/in/kasen-ko-/",
+			url: "https://www.linkedin.com/in/kasen-ko/",
 		},
 		{
 			name: "David Liu",
@@ -344,7 +348,7 @@ function RosterSection() {
 			position: "Conference Co-President",
 			major: "BBA 2028",
 			ID: 141,
-			url: "https://www.linkedin.com/in/https://www.linkedin.com/in/david-liu-826950294/",
+			url: "https://www.linkedin.com/in/david-shang-liu/",
 		}, {
 			name: "Nathan Lucken",
 			image0: nathanlucken0,
@@ -538,7 +542,7 @@ function RosterSection() {
 			position: "Senior Analyst",
 			major: "BBA 2028",
 			ID: 145,
-			url: "https://www.linkedin.com/in/michelle-baik24/",
+			url: "https://www.linkedin.com/in/michelle-baik/",
 		},
 		{
 			name: "Dylan Chee",
@@ -704,7 +708,7 @@ function RosterSection() {
 			position: "Junior Advisor",
 			major: "BBA 2027",
 			ID: 128,
-			url: "https://www.linkedin.com/in/shiva-rajan78/",
+			url: "https://www.linkedin.com/in/-shivarajan/",
 		},
 		{
 			name: "Arav Rajesh",
@@ -945,35 +949,35 @@ function RosterSection() {
 
 				<NewLine />
 
-				{eboardData.map((data) => (
-					<a
-						key={data.ID}
-						href={data.url}
-						target="_blank"
-						style={{ textDecoration: "none" }}
-					>
-						<CardContainer>
-							<CardImage
-								style={{ backgroundImage: `url(${data.image0})` }}
-							/>
-							<CardImageHover
-								onMouseEnter={() => setHoverID2(data.ID)}
-								onMouseLeave={() => setHoverID2(0)}
-								style={{
-									opacity: hoverID2 === data.ID ? "100%" : "0%",
-									backgroundImage: `url(${data.image1})`,
-								}}
-							/>
-							<NewLine />
-							<TextContainer>
-								<CardTitle>{data.name}</CardTitle>
-								<TinySpacer />
-								<CardHeader>
-									{hoverID2 === data.ID ? data.major : data.position}
-								</CardHeader>
-							</TextContainer>
-						</CardContainer>
-					</a>
+				{eboardData.map((data, idx) => (
+					<>
+						<a
+							key={data.ID}
+							href={data.url}
+							target="_blank"
+							style={{ textDecoration: "none" }}
+						>
+							<CardContainer>
+								<CardImage style={{ backgroundImage: `url(${data.image0})` }} />
+								<CardImageHover
+									onMouseEnter={() => setHoverID2(data.ID)}
+									onMouseLeave={() => setHoverID2(0)}
+									style={{
+										opacity: hoverID2 === data.ID ? "100%" : "0%",
+										backgroundImage: `url(${data.image1})`,
+									}}
+								/>
+								<NewLine />
+								<TextContainer>
+									<CardTitle>{data.name}</CardTitle>
+									<TinySpacer />
+									<CardHeader>
+										{hoverID2 === data.ID ? data.major : data.position}
+									</CardHeader>
+								</TextContainer>
+							</CardContainer>
+						</a>
+					</>
 				))}
 			</PositionContainer>
 
