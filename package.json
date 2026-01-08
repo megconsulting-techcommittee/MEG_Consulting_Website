@@ -13,14 +13,25 @@
     "react-ga4": "^1.4.1",
     "react-icons": "^4.3.1",
     "react-router-dom": "^6.3.0",
+<<<<<<< HEAD
     "react-scripts": "^5.0.1",
     "serve": "^14.2.1",
+=======
+>>>>>>> parent of 1f925e5 (package)
     "styled-components": "^5.3.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "react-scripts": "5.0.1"
   },
+<<<<<<< HEAD
   "engines": {
     "node": "16.15.0",
     "npm": "8.5.5"
+=======
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^13.5.0"
+>>>>>>> parent of 1f925e5 (package)
   },
   "scripts": {
     "dev": "react-scripts start",
