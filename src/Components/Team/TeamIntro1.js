@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import NextSection from "../General/NextSection";
 
-import megdocks from "../../Images/Team/megdocks.png";
 import jump from "../../Images/Team/jump.png";
 
 const SectionContainer = styled.div`
