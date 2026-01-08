@@ -207,6 +207,7 @@ function TeamSection() {
 					______________________________
 				</TitleText>
 				<TeamImage src={teamf25}></TeamImage>
+				<TeamImage src={teamf25}></TeamImage>
 				<ShadowContainer
 					style={{
 						opacity: hoverID === 1 ? "0" : hoverID === 0 ? "0" : 1,
