@@ -61,40 +61,40 @@ const TimelineComponent = () => {
 			time: ""
 		},
 		{
-			title: "Festifall",
-			location: "Table A023",
-			date: "8/27",
-			time: "4:30-6:30 pm"
+			title: "Meet the Clubs",
+			location: "Winter Garden",
+			date: "Jan 8th",
+			time: "4:30-7:30 PM"
 		},
 		{
-			title: "Meet The Clubs",
-			location: "Ross Winter Garden",
-			date: "9/3",
-			time: "5:30-7:30 pm"
+			title: "Winterfest",
+			location: "Union Ideahub",
+			date: "Jan 12th",
+			time: "4:00-7:00 PM"
 		},
 		{
 			title: "Mass Meeting",
-			location: "Tauber Colloquium",
-			date: "9/8",
-			time: "5:30-6:30 pm"
+			location: "Blau Colloquium",
+			date: "Jan 18th",
+			time: "3:00-4:00 PM"
 		},
 		{
 			title: "Speed Dating",
-			location: "R0320",
-			date: "9/14",
-			time: "7:00-8:00 pm or 8:00-9:00 pm"
+			location: "R0320 & R0420",
+			date: "Jan 23rd",
+			time: "6:00-9:00 PM"
 		},
 		{
 			title: "DEI/Career Panel",
-			location: "R0320",
-			date: "9/15",
-			time: "5:00-6:30 pm"
+			location: "B0570",
+			date: "Jan 25th",
+			time: "6:30-8:00 PM"
 		},
 		{
 			title: "Application Due",
 			location: "Online",
-			date: "9/15",
-			time: "11:59 pm"
+			date: "Jan 26th",
+			time: "11:59 PM"
 		},
 	];
 

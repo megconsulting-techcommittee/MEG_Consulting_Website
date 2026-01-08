@@ -1,19 +1,4 @@
 import styled from "styled-components";
-import team from "../../Images/Team/team1.jpg";
-import vivek from "../../Images/Team/shadows/vivek.png";
-import sydney from "../../Images/Team/shadows/sydney.png";
-import siri from "../../Images/Team/shadows/siri.png";
-import prah from "../../Images/Team/shadows/prah.png";
-import mythily from "../../Images/Team/shadows/mythily.png";
-import lucky from "../../Images/Team/shadows/lucky.png";
-import luca from "../../Images/Team/shadows/luca.png";
-import leo from "../../Images/Team/shadows/leo.png";
-import hannah from "../../Images/Team/shadows/hannah.png";
-import joe from "../../Images/Team/shadows/joe.png";
-import aman from "../../Images/Team/shadows/aman.png";
-import amory from "../../Images/Team/shadows/amory.png";
-import chris from "../../Images/Team/shadows/chris.png";
-import debangi from "../../Images/Team/shadows/debangi.png";
 
 import teamf25 from "../../Images/Team/teamf25.jpg";
 
