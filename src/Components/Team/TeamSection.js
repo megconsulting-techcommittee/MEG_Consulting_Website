@@ -207,7 +207,6 @@ function TeamSection() {
 					______________________________
 				</TitleText>
 				<TeamImage src={teamf25}></TeamImage>
-				<TeamImage src={teamf25}></TeamImage>
 				<ShadowContainer
 					style={{
 						opacity: hoverID === 1 ? "0" : hoverID === 0 ? "0" : 1,
@@ -1641,13 +1640,12 @@ function TeamSection() {
 			<TextContainer style={{ display: hoverID === 0 ? "flex" : "none" }}>
 				<TitleText style={{ textAlign: "center" }}>
 					Meet The Members
-					Meet The Members
 				</TitleText>
 				<SmallSpacer />
 				<BodyText>
-					Meet the Fall 2023 Members. We're so happy these
-					amazing members are with us! To be part of the next MEG
-					class consider coming to our recruiting events and applying.
+					Meet the MEG members below. We're so happy these
+					amazing students are with us! To join us, take a look at our
+					Application section and apply during the next cycle!
 				</BodyText>
 				<SmallSpacer />
 				<BodyText>
@@ -1663,9 +1661,9 @@ function TeamSection() {
 				</TitleText>
 				<SmallSpacer />
 				<BodyText>
-					Meet the Fall 2023 Class. We're so happy these
-					amazing members are with us! To be part of the next MEG
-					class consider coming to our recruiting events and applying.
+					Meet the MEG members below. We're so happy these
+					amazing students are with us! To join us, take a look at our
+					Application section and apply during the next cycle!
 				</BodyText>
 				<SmallSpacer />
 			</TextContainer>
