@@ -339,7 +339,7 @@ function MenuSection() {
 								Want to keep up with MEG?
 								Sign up on our{" "}
 								<a
-									href="https://docs.google.com/forms/d/e/1FAIpQLSf1gM7JqPUXBbpBuQcYsdy-OafphJg_upk60FAhppKqUSne8Q/viewform?usp=header"
+									href="https://docs.google.com/forms/d/e/1FAIpQLSdcuJp8Z0qcS8RVWFyA4AhNoUB6MHTF3jhKqWpsDwh9ciLyjw/viewform"
 									target="_blank"
 									style={{
 										fontWeight: 700,

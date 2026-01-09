@@ -135,8 +135,10 @@ function CaseSection(props){
                         <TitleText>The Case Interview: Business Thinking and Critical Analysis! </TitleText>
                         <SmallSpacer/>
                         <BodyText>
-                            The case interview is a way for us to test how well you are able to problem solve, how strong your business senses, and measure other qualities we think are important for our members.
-                            <br/><br/><b>We don't expect any past casing experience.</b> We don't even expect past business experience, although we'll show you the ropes in our mock case so you'll be prepared.
+                            The case interview is a way for us to test how well you are able to problem solve, how strong your business senses,
+                            and measure other qualities we think are important for our members.
+                            <br/><br/><b>We don't expect any past casing experience.</b> We don't even expect past business experience,
+                            although we'll show you the ropes in the mock case in this section so you'll be prepared.
                         </BodyText>
                     </TextContainer>
                     <ContentImage src={case1}/>
@@ -163,7 +165,7 @@ function CaseSection(props){
                         <TitleText>A Guided Case Interview</TitleText>
                         <SmallSpacer/>
                         <BodyText>
-                            To show the structure and key concepts that you need to know for your case interview, we'll go through a mock case found in the 2017 Edition of The Wharton Case Book. If you would like additional practice cases we can send you the case book, just email us at meg.eboard@umich.edu.
+                            To show the structure and key concepts that you need to know for your case interview, we'll go through a mock case found in the 2017 Edition of The Wharton Case Book. If you would like additional case practice, firms like Bain and McKinsey publish mock cases on their websites.
                             <br/><br/>We'll give you the mock case interview section by section, much like an actual interview, but in between sections we'll also show what we would expect from you for each part of the case interview.
                             <br/><br/> The only materials you'll need is a paper and pencil, nothing else. Let's get started!
                         </BodyText>
@@ -185,7 +187,9 @@ function CaseSection(props){
                             ago, they have struggled to achieve that goal and have engaged our firm to find
                             out why and to recommend next steps. How can we help?"
                             <br/><br/>
-                            That's all you get! <u>How do you approach this case?</u> Write down or imagine what you would do if this prompt was given to you. When your done move on to the next slide to see what we think you should do.
+                            That's all you get! <u>How do you approach this case?</u>
+                            Write down or imagine what you would do if this prompt was given to you.
+                            When you're done, move on to the next slide to see what we would expect from you.
                         </BodyText>
                     </TextContainer>
                     <ContentImage src={case1}/>
@@ -198,10 +202,68 @@ function CaseSection(props){
                         <TitleText>Details and Questions</TitleText>
                         <SmallSpacer style={{height:"2vmax"}}/>
                         <BodyText>
-                            Ok so as you can see you don't get a lot of starting info for a case. There are a few things you shouldn't do, most commonly, don't jump straight into a solution.
-                            We want you to focus on two things: Details and Questions.
+                            As you can see, you don't get a lot of starting info for a case.
+                            The number one thing <b>not</b> to do is jump straight into a solution.
+                            Instead, we want you to focus on two types of information: Details and Questions.
                             <br/><br/>
-                            When the prompt is being read to you, take notes on all the details that might be important. You never know what is important in a case. What's the company name? What industry is the business in? What's the business issue? etc.
+                            When the prompt is being read to you, take notes on all the details that might be important. What's the company name? What industry is the business in? What's the business issue? etc.
+                            <br/><br/>
+                            After you written down the details of the case, start brainstorming questions that might be important. What information is given that might be useful to your solution? Write some questions that you think are important. When you're ready, go to the next slide to see some questions we thought of.
+                        </BodyText>
+                    </TextContainer>
+                    <ContentImage src={case1}/>
+                </ContentContainer>
+            </SlideContainer>
+
+            <SlideContainer style={{transform: caseID >= 5 ? "translateX(0vw)": "translateX(100vw)" }}>
+                <ContentContainer>
+                <TextContainer>
+                        <TitleText>Questions and Framework</TitleText>
+                        <SmallSpacer style={{height:"2vmax"}}/>
+                        <BodyText>
+                            As you can see, you don't get a lot of starting info for a case.
+                            The number one thing <b>not</b> to do is jump straight into a solution.
+                            Instead, we want you to focus on two types of information: Details and Questions.
+                            <br/><br/>
+                            When the prompt is being read to you, take notes on all the details that might be important. What's the company name? What industry is the business in? What's the business issue? etc.
+                            <br/><br/>
+                            After you written down the details of the case, start brainstorming questions that might be important. What information is given that might be useful to your solution? Write some questions that you think are important. When you're ready, go to the next slide to see some questions we thought of.
+                        </BodyText>
+                    </TextContainer>
+                    <ContentImage src={case1}/>
+                </ContentContainer>
+            </SlideContainer>
+
+            <SlideContainer style={{transform: caseID >= 6 ? "translateX(0vw)": "translateX(100vw)" }}>
+                <ContentContainer>
+                <TextContainer>
+                        <TitleText>Details and Questions</TitleText>
+                        <SmallSpacer style={{height:"2vmax"}}/>
+                        <BodyText>
+                            As you can see, you don't get a lot of starting info for a case.
+                            The number one thing <b>not</b> to do is jump straight into a solution.
+                            Instead, we want you to focus on two types of information: Details and Questions.
+                            <br/><br/>
+                            When the prompt is being read to you, take notes on all the details that might be important. What's the company name? What industry is the business in? What's the business issue? etc.
+                            <br/><br/>
+                            After you written down the details of the case, start brainstorming questions that might be important. What information is given that might be useful to your solution? Write some questions that you think are important. When you're ready, go to the next slide to see some questions we thought of.
+                        </BodyText>
+                    </TextContainer>
+                    <ContentImage src={case1}/>
+                </ContentContainer>
+            </SlideContainer>
+
+            <SlideContainer style={{transform: caseID >= 7 ? "translateX(0vw)": "translateX(100vw)" }}>
+                <ContentContainer>
+                <TextContainer>
+                        <TitleText>Details and Questions</TitleText>
+                        <SmallSpacer style={{height:"2vmax"}}/>
+                        <BodyText>
+                            As you can see, you don't get a lot of starting info for a case.
+                            The number one thing <b>not</b> to do is jump straight into a solution.
+                            Instead, we want you to focus on two types of information: Details and Questions.
+                            <br/><br/>
+                            When the prompt is being read to you, take notes on all the details that might be important. What's the company name? What industry is the business in? What's the business issue? etc.
                             <br/><br/>
                             After you written down the details of the case, start brainstorming questions that might be important. What information is given that might be useful to your solution? Write some questions that you think are important. When you're ready, go to the next slide to see some questions we thought of.
                         </BodyText>
