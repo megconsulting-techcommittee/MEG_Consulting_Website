@@ -977,9 +977,6 @@ function RosterSection() {
 								</TextContainer>
 							</CardContainer>
 						</a>
-
-						{/* force break after president */}
-						{idx === 0 && <NewLine />}
 					</>
 				))}
 			</PositionContainer>
