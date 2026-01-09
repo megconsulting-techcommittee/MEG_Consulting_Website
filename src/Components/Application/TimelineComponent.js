@@ -6,7 +6,7 @@ const TimelineContainer = styled.div`
 	width: 57vw;
 	outline: solid 3px #1e1e1e;
 	margin: 0.15vh;
-	padding-right: 0.3vw;
+	padding-right: 0.2vw;
 	background-color: transparent; /* Transparent background */
 	position: relative;
 	display: flex;

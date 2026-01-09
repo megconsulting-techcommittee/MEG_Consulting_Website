@@ -84,11 +84,11 @@ function LookingSection() {
         <TextContainer>
           <TitleText>Who We're Looking For:</TitleText>
           <BodyContainer>
-          <BodyText>Business Students, Tech Wizards, Witty Friends, Stylish Designers, Confident Speakers, Passionate Learners, Healthcare Gurus, Flamboyant Actors, Fervent Environmentalists, Real Estate Experts, Stock Specialists, Coffee Chat Partners, Supply Chain Savants, Helpful Mentors, Revolutionary Artists, Euchre Partners, Pioneering Engineers, Karaoke Companions, Math Prodigies, Curious Scientists, Clever Comedians, Pioneering Creatives, Innovative Thinkers, Problem Solvers, Life-Long Friends, Cooperative Teammates, Business Students, Tech Wizards, Witty Friends, Stylish Designers, Confident Speakers, Passionate Learners, Healthcare Gurus, Flamboyant Actors, Fervent Environmentalists, Real Estate Experts, Stock Specialists, Coffee Chat Partners, Supply Chain Savants, Helpful Mentors, Revolutionary Artists, Euchre Partners, Pioneering Engineers, Karaoke Companions, Math Prodigies, Curious Scientists, Clever Comedians, Pioneering Creatives, Innovative Thinkers, Problem Solvers, Life-Long Friends </BodyText>
+          <BodyText>Business Students, Witty Friends, Stylish Designers, Passionate Learners, Healthcare Gurus, Cuisine Aficionados, Fervent Environmentalists, Real Estate Experts, Stock Specialists, Coffee Chat Partners, Supply Chain Savants, Helpful Mentors, Revolutionary Artists, Euchre Partners, Pioneering Engineers, Karaoke Companions, Math Prodigies, Curious Scientists, Clever Comedians, Pioneering Creatives, Innovative Thinkers, Problem Solvers, Life-Long Friends, Cooperative Teammates, Business Students, Confident Speakers, Passionate Learners, Healthcare Gurus, Flamboyant Actors, Fervent Environmentalists, Real Estate Experts, Stock Specialists, Coffee Chat Partners, Supply Chain Savants, Helpful Mentors, Revolutionary Artists, Euchre Partners, Pioneering Engineers, Karaoke Companions, Math Prodigies, Curious Scientists, Clever Comedians, Pioneering Creatives, Innovative Thinkers, Problem Solvers, Life-Long Friends </BodyText>
             <YouContainer>YOU!</YouContainer>
           </BodyContainer>
           <SmallSpacer/>
-          <a href= "https://docs.google.com/forms/d/e/1FAIpQLSddsGu-R24vzjGjUELwf8eMnUWdstzsLjaXn0AaSHcAXbBX_Q/viewform" target="_blank">
+          <a href= "https://docs.google.com/forms/d/e/1FAIpQLSeDCVz2eX7IBlwMu54RyoAOS5ZAV6tqY1cdAYXtCnw6Cy7kkw/viewform" target="_blank">
             <TitleText style={{textAlign: "right", width: "100%", textDecoration: "underline"}}>Apply Now</TitleText>
           </a>
         </TextContainer>

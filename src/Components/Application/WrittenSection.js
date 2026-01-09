@@ -165,7 +165,9 @@ function WrittenSection(props){
                         <TitleText>Ok Fine, It's A Bit About Us</TitleText>
                         <SmallSpacer/>
                         <ContentText>
-                            We also want to know <b style={{cursor: "default"}} onMouseLeave={()=>{setHoverWritten(0)}} onMouseEnter={()=>{setHoverWritten(1)}}><u>why</u></b> you chose to apply to MEG? We want to make sure you're excited to apply because we're <b style={{cursor: "default"}} onMouseLeave={()=>{setHoverWritten(0)}} onMouseEnter={()=>{setHoverWritten(2)}}><u>excited</u></b> to meet you.
+                            We also want to know <b style={{cursor: "default"}} onMouseLeave={()=>{setHoverWritten(0)}} onMouseEnter={()=>{setHoverWritten(1)}}><u>why</u></b>
+                            you chose to apply to MEG. We want to make sure you're excited to apply because we're
+                            <b style={{cursor: "default"}} onMouseLeave={()=>{setHoverWritten(0)}} onMouseEnter={()=>{setHoverWritten(2)}}><u>excited</u></b> to meet you.
                             <br/><br/> If you're genuinely interested in us, we're going to be genuinely interested in you! 
                         </ContentText>
                     </TextContainer>
@@ -177,7 +179,11 @@ function WrittenSection(props){
                 <ContentContainer>
                     <TextContainer>
                         <BodyText>
-                            We ask for a variety of non-academic information about you for a lot of different reasons. We need a headshot and your name to simply identify you &#40;There are a lot of y'all and it's hard to put a name to a face sometimes!&#41;. We ask for your gender and pronouns so we can measure diversity and refer to our applicants how they wish to be. We ask for your email and phone number in order to get in touch in the future. <br/><br/> My only advice for this part is to make sure you don't make any silly mistakes! It happens to the best of us, but double check before submitting.
+                            We ask for a variety of non-academic information about you for a lot of different reasons.
+                            We need a headshot and your name to simply identify you &#40;Sometimes we just need to put a name to a familiar face!&#41;.
+                            We ask for your gender and pronouns so we can measure diversity and refer to our applicants how they wish to be.
+                            We ask for your email and phone number in order to get in touch in the future.
+                            <br/><br/> Our only advice for this part is to make sure you don't make any silly mistakes! It happens to the best of us, but double check everything before submitting.
                         </BodyText>
                     </TextContainer>
                     <ContentImage src={personal} style={{marginRight:"2.5vw"}}/>
@@ -189,7 +195,11 @@ function WrittenSection(props){
                 <ContentContainer>
                     <TextContainer>
                         <BodyText>
-                            We also ask for academic information about you including year of graduation, major, GPA, and resume. Don't be worried if you're resume isn't bursting at the seams with experience or if your GPA isn't a 5.6. We understand that most of you guys are underclassmen and we don't expect any prior experience or perfect grades. <b>These metrics are typically the last things we look at, if at all.</b> <br/><br/> Just make sure your resume is presentable and if you need help we have a case/resume workshop where our members can walk you through touching up or even creating your resume.
+                            We also ask for academic information about you including year of graduation, major, GPA, and resume.
+                            Don't be worried if you're resume isn't bursting at the seams with experience or if your GPA isn't a 5.6.
+                            We understand that most of you guys are underclassmen and we don't expect any prior experience or perfect grades.
+                            <b> These metrics are typically the last things we look at, if at all.</b>
+                            <br/><br/> Just make sure your resume is presentable and if you need help, you have access to resources such as the CDO or upperclassmen friends!
                         </BodyText>
                     </TextContainer>
                     <ContentImage src={academic} style={{marginRight:"2.5vw"}}/>
@@ -203,10 +213,10 @@ function WrittenSection(props){
                         <BodyText>
                             These short answers are where you can express you're strengths and individuality. These answers are pretty subjective, but I went through previous decision notes and listed below some of the advice that I think might help:
                             <ul>
-                                <li>Mention <b>why you want to join MEG</b>, like I said before if you are genuinely interested in us, we will be genuinely interested in you</li>
-                                <li>These aren't college applications, you have a tight character/word limit. No need to start a lengthy story or anecdote, get to the point</li>
+                                <li>Mention <b>why you want to join MEG</b>. Once again, if you are genuinely interested in us, we will be genuinely interested in you!</li>
+                                <li>These are much shorter than college applications with a tighter character/word limit. No need to for a lengthy story or anecdote, we want to see the crux of the story</li>
                                 <li><b>Come network with us</b>. Showing you made the effort to get to know one of our members during an event is helpful, especially if the interaction was positive  </li>
-                                <li>Brag away, we want to hear about the amazing things you've done and fantastic skills you've learned. Just don't be arrogant!</li>
+                                <li>Brag as much as you want, we want to hear about the amazing things you've done and fantastic skills you've learned. Just don't be arrogant!</li>
                             </ul>
                         </BodyText>
                     </TextContainer>
@@ -220,7 +230,8 @@ function WrittenSection(props){
                         <TitleText>Most Importantly, Be Yourself </TitleText>
                         <SmallSpacer/>
                         <ContentText>
-                            Be honest with who you want to spend time with, what projects you want to do, and where you think you can really be yourself.<br/> <br/>If those people are our members, if those projects are the work we do, If that place is MEG, and you are true to yourself, it shows in your application!
+                            Be honest with who you want to spend time with, what projects you want to do, and where you think you can really be yourself.<br/>
+                            <br/>If those people are our members, if those projects are the work we do, and if that place is MEG, it shows in your application!
                         </ContentText>
                     </TextContainer>
                     <ContentImage src={self} style={{marginRight:"2.5vw"}}/>
@@ -230,7 +241,7 @@ function WrittenSection(props){
             <SlideContainer style={{transform: writtenID >= 6 ? "translateX(0vw)": "translateX(100vw)" }}>
                 <ContentContainer>
                 <TextContainer>
-                    <a href= "https://forms.gle/7c3hhtvTDGoqNLQd8" target="_blank" style={{textDecoration: "none"}}>
+                    <a href= "https://docs.google.com/forms/d/e/1FAIpQLSeDCVz2eX7IBlwMu54RyoAOS5ZAV6tqY1cdAYXtCnw6Cy7kkw/viewform" target="_blank" style={{textDecoration: "none"}}>
                         <TitleText style={{fontSize: "5vw"}}>
                             <u>Apply Now</u>
                         </TitleText>

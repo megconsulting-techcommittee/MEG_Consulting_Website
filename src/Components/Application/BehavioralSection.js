@@ -170,9 +170,9 @@ function BehavioralSection(props){
                         <BodyText>
                             As behavioral interviews are extremely common in the professional world there are a lot of online resources to help you prepare and I've listed some below.
                             <ul>
-                                <li>Collect a few of your own experiences that you think would work well with behavioral questions. Personally, I have 4 examples that I have ready to go and I practice telling these stories using some framework like STAR</li>
-                                <li>Be prepared to be hit with a question that you aren't ready for. If you prepared enough I think it is possible to take a prepared story and change it enough to match the unexpected question</li>
-                                <li>Be personable and nice. Behavioral interviews are more than measurements of your soft skills, we also want to see if you fit well within the club</li>
+                                <li>Collect a few of your own experiences that you think would work well with behavioral questions and practice telling these stories in a structured manner (like the STAR method).</li>
+                                <li>Be calm even with questions that you haven't prepared. It is definitely possible (and very encouraged!) to take a prepared story and change it enough to match the unexpected question.</li>
+                                <li>Be personable and nice. Behavioral interviews are more than measurements of your soft skills, we also want to see if you fit well within our club.</li>
                             </ul>
                         </BodyText>
                     </TextContainer>

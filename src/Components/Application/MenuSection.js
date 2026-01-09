@@ -8,6 +8,7 @@ import mass from "../../Images/Application/mass.png";
 import workshop from "../../Images/Application/workshop.png";
 import dei from "../../Images/Application/dei.png";
 import apply from "../../Images/Application/apply.png";
+import union from "../../Images/Application/union.jpg";
 import league from "../../Images/Application/league.png";
 import NextSection from "../General/NextSection";
 
@@ -77,7 +78,7 @@ const LogoContainer = styled.div`
 
 const InfoContainer = styled.div`
 	height: 54vh;
-	width: 20vw;
+	width: 24vw;
 	outline: solid 3px #1e1e1e;
 	margin: 1.5px;
 	display: flex;
@@ -95,10 +96,9 @@ const InfoContainer = styled.div`
 
 const FaqContainer = styled.div`
 	height: 54vh;
-	width: 20vw;
+	width: 24vw;
 	outline: solid 3px #1e1e1e;
 	margin: 1.5px;
-	// padding: 2vh 1.5vw;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -116,7 +116,7 @@ const NewLine = styled.div`
 
 const CenterContainer = styled.div`
 	height: 54vh;
-	width: 37vw;
+	width: 29vw;
 	outline: solid 3px #1e1e1e;
 	margin: 1.5px;
 	display: flex;
@@ -236,7 +236,7 @@ function MenuSection() {
 	];
 	const eventImages = [
 		central,
-		ross,
+		union,
 		mass,
 		coffee,
 		dei,
@@ -299,18 +299,18 @@ function MenuSection() {
 					<TextContainer>
 						<HeaderText>FAQ's:</HeaderText>
 						<BodyText>
-							Q: I'm not in Ross, can I still apply? <br /> A:
-							Yes, we accept all majors! <br />
-							Q: Any advice to help me get in? <br /> A: There's a
-							lot &#40;scroll down!&#41;, but being yourself and
-							putting your best foot forward is the most important
-							advice we have. <br />
+							<i>Q: I'm not in Ross, can I still join?</i>
+							<br /> A: Yes, we accept all majors! <br />
+							<i>Q: Any advice to help me get in?</i>
+							<br /> A: Scroll down for all of MEG's tips and tricks! <br />
+							<i>Q: How do I make the most of recruiting events?</i>
+							<br /> A: Talk to us! Be very present, and it will show when you apply. <br />
 						</BodyText>
 					</TextContainer>
 				</FaqContainer>
 				<CenterContainer>
 					<a
-						href="https://docs.google.com/forms/d/e/1FAIpQLSddsGu-R24vzjGjUELwf8eMnUWdstzsLjaXn0AaSHcAXbBX_Q/viewform"
+						href="https://docs.google.com/forms/d/e/1FAIpQLSeDCVz2eX7IBlwMu54RyoAOS5ZAV6tqY1cdAYXtCnw6Cy7kkw/viewform"
 						target="_blank"
 						style={{ textDecoration: "none" }}
 					>
@@ -336,7 +336,7 @@ function MenuSection() {
 							</HeaderText>
 							<SmallSpacer />
 							<BodyText>
-								Want to stay up to date on the newest from MEG?
+								Want to keep up with MEG?
 								Sign up on our{" "}
 								<a
 									href="https://docs.google.com/forms/d/e/1FAIpQLSf1gM7JqPUXBbpBuQcYsdy-OafphJg_upk60FAhppKqUSne8Q/viewform?usp=header"
@@ -348,8 +348,8 @@ function MenuSection() {
 								>
 									interest form
 								</a>{" "}
-								to get notifications on important events, dates
-								and much more!
+								to be notified of important events, deadlines,
+								and more!
 							</BodyText>
 						</TextContainer>
 					</MoreContainer>

@@ -142,10 +142,13 @@ function TipSection(){
 
                 <TipContainer style={{height: clickId === 3 ? `${height2}px`:"15vh"}} onClick={() => clickId !== 3 ? setClickId(3):setClickId(0)}>
                     <TitleTextContainer>
-                        <TitleText>How does the club recruiting process work?</TitleText>
+                        <TitleText>What does MEG's recruiting process look like?</TitleText>
                         <BsPlusLg style={{marginRight:"1vw", marginLeft:"5vw", transform: clickId === 3 ? "rotate(45deg)":"none", transition: "transform .5s", fontSize: "3vmin", flexShrink:0}}/>
                     </TitleTextContainer>
-                    <BodyText ref={measuredRef2}>The club recruiting process occurs every fall and winter semester. It starts with a handful of events held by a consulting club for you to get to know each club and their members. To apply, clubs have a written application that include a few short answer questions. Next, if your written application is accepted, you will move on a round or two of behavioral and case interviews.  </BodyText>
+                    <BodyText ref={measuredRef2}>MEG recruits at the beginning of each fall and winter semester.
+                        It starts with a handful of events for you to get to know each club and their members.
+                        To apply, applicants must submit an online application with a few short answer questions.
+                        Next, if your written application is accepted, you will move onto two rounds of behavioral and case interviews.  </BodyText>
                 </TipContainer>
                 
                 <TipContainer style={{height: clickId === 4 ? `${height3}px`:"15vh"}} onClick={() => clickId !== 4 ? setClickId(4):setClickId(0)}>
@@ -153,23 +156,32 @@ function TipSection(){
                         <TitleText>What are recruiting events and do I have to go to them?</TitleText>
                         <BsPlusLg style={{marginRight:"1vw", marginLeft:"5vw", transform: clickId === 4 ? "rotate(45deg)":"none", transition: "transform .5s", fontSize: "3vmin", flexShrink:0}}/>
                     </TitleTextContainer>
-                    <BodyText ref={measuredRef3}>Recruiting events are ways for you to get to know each club before applying. Clubs might hold mass meetings, coffee chats, case workshops, and DEI panels. While they're not mandatory, at MEG we strongly suggest you go because it will help you figure out what clubs you like!  </BodyText>
+                    <BodyText ref={measuredRef3}>Recruiting events are ways for you to learn more about each club before applying.
+                        Clubs might hold mass meetings, coffee chats, case workshops, and panels.
+                        Although not mandatory, at MEG we highly encourage you to attend and get to know our members on a more personal level!  </BodyText>
                 </TipContainer>
                 
                 <TipContainer style={{height: clickId === 5 ? `${height4}px`:"15vh"}} onClick={() => clickId !== 5 ? setClickId(5):setClickId(0)}>
                     <TitleTextContainer>
-                        <TitleText>What is on the written application and how do I do well on it?</TitleText>
+                        <TitleText>What is on the written application and how do I write it?</TitleText>
                         <BsPlusLg style={{marginRight:"1vw", marginLeft:"5vw", transform: clickId === 5 ? "rotate(45deg)":"none", transition: "transform .5s", fontSize: "3vmin", flexShrink:0}}/>
                     </TitleTextContainer>
-                    <BodyText ref={measuredRef4}>Our written application includes a section about general info &#40;name, age, major etc.&#41; followed by a few short answer questions to let us know you better. We read a lot of these applications so try to separate yourself; give us a reason to remember you! Show us your passions, what makes you unique, critical analysis, and out of the box thinking. Everyone has unique experiences and skills and we and to hear yours!</BodyText>
+                    <BodyText ref={measuredRef4}>Our written application includes a section about general info &#40;name, age, major etc.&#41;
+                        followed by a few short answer questions so we can get to know you better.
+                        We read a lot of these applications so try to separate yourself; give us a reason to remember you!
+                        Show us your passions, what makes you unique, critical analysis, and out of the box thinking.
+                        Everyone has unique experiences and skills and we and to hear yours!</BodyText>
                 </TipContainer>
                 
                 <TipContainer style={{height: clickId === 6 ? `${height5}px`:"15vh"}} onClick={() => clickId !== 6 ? setClickId(6):setClickId(0)}>
                     <TitleTextContainer>
-                        <TitleText>What is a behavioral interview and how do I do well on it?</TitleText>
+                        <TitleText>What is a behavioral interview and how do I do well in it?</TitleText>
                         <BsPlusLg style={{marginRight:"1vw", marginLeft:"5vw", transform: clickId === 6 ? "rotate(45deg)":"none", transition: "transform .5s", fontSize: "3vmin", flexShrink:0}}/>
                     </TitleTextContainer>
-                    <BodyText ref={measuredRef5}>A behavioral interview is a common type of recruiting interview that involves applicants responding to a wide variety of questions that are meant to shine light on the applicant's past experiences, skills, and personality. To do well get to know some of the most common behavioral questions and come prepared with some past experiences that you can describe to your interviewer. </BodyText>
+                    <BodyText ref={measuredRef5}>A behavioral interview is a common type of interview that involves applicants
+                        responding to a wide variety of questions that are meant to shine light on the applicant's past experiences,
+                        skills, and personality. To do well, get to know some of the most common behavioral questions
+                        and come prepared with some past experiences that you can describe to your interviewer. </BodyText>
                 </TipContainer>
 
                 <TipContainer style={{height: clickId === 7 ? `${height6}px`:"15vh"}} onClick={() => clickId !== 7 ? setClickId(7):setClickId(0)}>
@@ -177,7 +189,11 @@ function TipSection(){
                         <TitleText>What is a case interview and how do I do well on it?</TitleText>
                         <BsPlusLg style={{marginRight:"1vw", marginLeft:"5vw", transform: clickId === 7 ? "rotate(45deg)":"none", transition: "transform .5s", fontSize: "3vmin", flexShrink:0}}/>
                     </TitleTextContainer>
-                    <BodyText ref={measuredRef6}>A case interview is a type of recruiting interview where the interviewer gives you a business problem and asks you to solve it. These interviews can be intimidating, as a lot of applicants have no experience with casing. However, if you've never even heard about casing, you should know that we aren't looking for a perfect case and even the best applicants we've seen struggle a bit with the case. To learn the basics of casing come to our Case/Resume Workshop.</BodyText>
+                    <BodyText ref={measuredRef6}>In a case interview, the interviewer walks you through a business problem that you must solve.
+                        These interviews can be intimidating, as a lot of applicants have no experience with casing.
+                        However, keep in mind that we aren't looking for a perfect case and even the best applicants we've seen struggle a bit.
+                        The most important aspect is to remain calm under pressure and show us how you think.
+                        To learn the basics of casing, you can study with YouTube videos or practice cases online!</BodyText>
                 </TipContainer>
                 
             </ContentContainer>

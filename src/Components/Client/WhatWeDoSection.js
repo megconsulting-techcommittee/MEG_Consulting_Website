@@ -118,7 +118,7 @@ function WhatWeDoSection (){
                     <IconContainer>
                         <BsPieChart/>
                     </IconContainer>
-                    <CardHeader>Data analysis</CardHeader>
+                    <CardHeader>Data Analysis</CardHeader>
                     <CardBody>
                         From acquisition to analysis to solution, we have your data needs covered.
                     </CardBody>
