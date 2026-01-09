@@ -98,7 +98,7 @@ const FaqContainer = styled.div`
 	width: 20vw;
 	outline: solid 3px #1e1e1e;
 	margin: 1.5px;
-	padding: 2vh 1.5vw;
+	// padding: 2vh 1.5vw;
 	display: flex;
 	align-items: center;
 	justify-content: center;
