@@ -67,7 +67,7 @@ const TitleText = styled.h1`
 function FormButton(props) {
 
   return (
-    <a href="https://github.com/brandongeng/MEG_Consulting" target="_blank">
+    <a href="https://github.com/megconsulting-techcommittee/MEG_Consulting_Website" target="_blank">
       <ButtonContainer
         style={{
           display: props.visible ? "none" : "flex",

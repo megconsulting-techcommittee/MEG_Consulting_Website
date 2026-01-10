@@ -76,15 +76,12 @@ function ButtonMenu (props){
     return(
         <ButtonContainer>
             <MenuContainer onMouseEnter={ ()=>{setTimeout(()=>{setMenuHoverID(1)},100); clearTimeout(delayHandler)}} onMouseLeave={()=>{handleMouseLeave()}} style={{paddingTop: menuHoverID ? "18vmax":"0"}}>
-                <ShiftContainer style={{bottom: menuHoverID ? "18vmax":"0vmax", pointerEvents: menuHoverID ? "auto":"none" }} onMouseEnter={()=>{setHoverButtonID(1)}} onMouseLeave={()=>{setHoverButtonID(0)}}>
-                    <FormButton visible={props.buttonScrollID} />
-                </ShiftContainer>
                 <ShiftContainer style={{bottom: menuHoverID ? "12vmax":"0vmax", pointerEvents: menuHoverID ? "auto":"none"  }} onMouseEnter={()=>{setHoverButtonID(1)}} onMouseLeave={()=>{setHoverButtonID(0)}}>
-                    <ClientButton  visible={props.buttonScrollID}/>
+                    <FormButton  visible={props.buttonScrollID}/>
                 </ShiftContainer>
                 <ShiftContainer style={{bottom: menuHoverID ? "6vmax":"0vmax", pointerEvents: menuHoverID ? "auto":"none"  }} onMouseEnter={()=>{setHoverButtonID(1)}} onMouseLeave={()=>{setHoverButtonID(0)}}>
-                    <WebButton visible={props.buttonScrollID} />
-                </ShiftContainer>
+                    <ClientButton visible={props.buttonScrollID} />
+                </ShiftContainer> 
                 <ShiftContainer>
                     <ExpandButton style={{backgroundColor: props.buttonScrollID ? "#1e1e1e":"#E0CFF2"}} onMouseDown={()=>{handleMouseClick(); clearTimeout(delayHandler);}} >
                         <BsThreeDots color={"#1e1e1e"}/>
