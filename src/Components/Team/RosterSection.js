@@ -361,15 +361,6 @@ function RosterSection() {
 	];
 	const managerData = [
 		{
-			name: "Evelyn Chao",
-			image0: evelynchao0,
-			image1: evelynchao1,
-			position: "Project Manager",
-			major: "BBA 2028",
-			ID: 156,
-			url: "https://www.linkedin.com/in/evelyn-chao0616/",
-		},
-		{
 			name: "Alex Hayes",
 			image0: alexhayes0,
 			image1: alexhayes1,
@@ -379,13 +370,13 @@ function RosterSection() {
 			url: "https://www.linkedin.com/in/alexander-john-hayes/",
 		},
 		{
-			name: "Farhan Ibrahim",
-			image0: farhanibrahim0,
-			image1: farhanibrahim1,
+			name: "Chloe Tjakra",
+			image0: chloetjakra0,
+			image1: chloetjakra1,
 			position: "Project Manager",
-			major: "Biomolecular Science & Econ 2028",
-			ID: 163,
-			url: "https://www.linkedin.com/in/farhaniibrahim/",
+			major: "Data Science 2028",
+			ID: 140,
+			url: "https://www.linkedin.com/in/chloe-tjakra-ba566a336/",
 		},
 		{
 			name: "Erica Qin",
@@ -397,6 +388,24 @@ function RosterSection() {
 			url: "https://www.linkedin.com/in/erica-qin/",
 		},
 		{
+			name: "Evelyn Chao",
+			image0: evelynchao0,
+			image1: evelynchao1,
+			position: "Project Manager",
+			major: "BBA 2028",
+			ID: 156,
+			url: "https://www.linkedin.com/in/evelyn-chao0616/",
+		},
+		{
+			name: "Farhan Ibrahim",
+			image0: farhanibrahim0,
+			image1: farhanibrahim1,
+			position: "Project Manager",
+			major: "Biomolecular Science & Econ 2028",
+			ID: 163,
+			url: "https://www.linkedin.com/in/farhaniibrahim/",
+		},
+		{
 			name: "Natasha Shimon",
 			image0: natashashimon0,
 			image1: natashashimon1,
@@ -404,15 +413,6 @@ function RosterSection() {
 			major: "Data Science 2027",
 			ID: 126,
 			url: "https://www.linkedin.com/in/natasha-shimon-10676b249/",
-		},
-		{
-			name: "Chloe Tjakra",
-			image0: chloetjakra0,
-			image1: chloetjakra1,
-			position: "Project Manager",
-			major: "Data Science 2028",
-			ID: 140,
-			url: "https://www.linkedin.com/in/chloe-tjakra-ba566a336/",
 		},
 		{
 			name: "Rithvik Tripurareni",
@@ -426,30 +426,49 @@ function RosterSection() {
 
 	];
 
-	const analystData = [
+	const freshmanData = [
+		{
+			name: "Akash Saini",
+			image0: akashsaini0,
+			image1: akashsaini1,
+			position: "Analyst",
+			major: "Electrical Engineering 2029",
+			ID: 168,
+			url: "https://www.linkedin.com/in/akash-saini-4a7176318/",
+		},
+		{
+			name: "Bettina Soares",
+			image0: bettinasoares0,
+			image1: bettinasoares1,
+			position: "Analyst",
+			major: "BBA 2029",
+			ID: 170,
+			url: "https://www.linkedin.com/in/bettina-soares/",
+		},
 		{
 			name: "Chris Bai",
 			image0: chrisbai0,
 			image1: chrisbai1,
-			position: "Junior Analyst",
+			position: "Analyst",
 			major: "BBA 2029",
 			ID: 160,
 			url: "https://www.linkedin.com/in/cjbai/",
 		},
 		{
-			name: "Solomon DeYoung",
-			image0: solomondeyoung0,
-			image1: solomondeyoung1,
-			position: "Junior Analyst",
+			name: "Danielle Shi",
+			image0: danielleshi0,
+			image1: danielleshi1,
+			position: "Analyst",
 			major: "BBA 2029",
-			ID: 161,
-			url: "https://www.linkedin.com/in/solomon-deyoung/",
+			ID: 169,
+			url: "https://www.linkedin.com/in/danielle-shi-1a3138248/",
 		},
 		{
+
 			name: "Gemma Gow",
 			image0: gemmagow0,
 			image1: gemmagow1,
-			position: "Junior Analyst",
+			position: "Analyst",
 			major: "BBA 2029",
 			ID: 162,
 			url: "https://www.linkedin.com/in/gemmaygow/",
@@ -458,320 +477,317 @@ function RosterSection() {
 			name: "Justin Ip",
 			image0: justinip0,
 			image1: justinip1,
-			position: "Junior Analyst",
+			position: "Analyst",
 			major: "BBA 2029",
 			ID: 164,
 			url: "https://www.linkedin.com/in/justin-gip/",
 		},
 		{
-			name: "Mburu Karimi",
-			image0: mburukarimi0,
-			image1: mburukarimi1,
-			position: "Junior Analyst",
-			major: "Econ 2028",
-			ID: 165,
-			url: "https://www.linkedin.com/in/mburu-karimi/",
-		},
-		{
-			name: "Simran Kaur",
-			image0: simrankaur0,
-			image1: simrankaur1,
-			position: "Junior Analyst",
-			major: "Econ 2028",
-			ID: 166,
-			url: "https://www.linkedin.com/in/-simrankaur-/",
-		},
-		{
-			name: "Alden King",
-			image0: aldenking0,
-			image1: aldenking1,
-			position: "Junior Analyst",
-			major: "BBA 2028",
-			ID: 167,
-			url: "https://www.linkedin.com/in/alden-king-940a14336/",
-		},
-		{
-			name: "Akash Saini",
-			image0: akashsaini0,
-			image1: akashsaini1,
-			position: "Junior Analyst",
-			major: "Electrical Engineering 2029",
-			ID: 168,
-			url: "https://www.linkedin.com/in/akash-saini-4a7176318/",
-		},
-		{
-			name: "Danielle Shi",
-			image0: danielleshi0,
-			image1: danielleshi1,
-			position: "Junior Analyst",
-			major: "BBA 2029",
-			ID: 169,
-			url: "https://www.linkedin.com/in/danielle-shi-1a3138248/",
-		},
-		{
-			name: "Bettina Soares",
-			image0: bettinasoares0,
-			image1: bettinasoares1,
-			position: "Junior Analyst",
-			major: "BBA 2029",
-			ID: 170,
-			url: "https://www.linkedin.com/in/bettina-soares/",
-		},
-		{
-			name: "Timothy Wang",
-			image0: timothywang0,
-			image1: timothywang1,
-			position: "Junior Analyst",
-			major: "BBA 2029",
-			ID: 172,
-			url: "https://www.linkedin.com/in/timothy-yh-wang/",
-		},
-		{
 			name: "Qian Yun Zhang",
 			image0: qianyunzhang0,
 			image1: qianyunzhang1,
-			position: "Junior Analyst",
+			position: "Analyst",
 			major: "CS & Math 2029",
 			ID: 173,
 			url: "https://www.linkedin.com/in/qian-yun-zhang-555291346/",
 		},
 		{
-			name: "Michelle Baik",
-			image0: michellebaik0,
-			image1: michellebaik1,
-			position: "Senior Analyst",
-			major: "BBA 2028",
-			ID: 145,
-			url: "https://www.linkedin.com/in/michelle-baik/",
+			name: "Solomon DeYoung",
+			image0: solomondeyoung0,
+			image1: solomondeyoung1,
+			position: "Analyst",
+			major: "BBA 2029",
+			ID: 161,
+			url: "https://www.linkedin.com/in/solomon-deyoung/",
 		},
 		{
-			name: "Dylan Chee",
-			image0: dylanchee0,
-			image1: dylanchee1,
-			position: "Senior Analyst",
-			major: "BBA 2028",
-			ID: 154,
-			url: "https://www.linkedin.com/in/dylan-chee/",
+			name: "Timothy Wang",
+			image0: timothywang0,
+			image1: timothywang1,
+			position: "Analyst",
+			major: "BBA 2029",
+			ID: 172,
+			url: "https://www.linkedin.com/in/timothy-yh-wang/",
 		},
+
+	];
+
+	const sophomoreData = [
 		{
-			name: "Hojun Do",
-			image0: hojundo0,
-			image1: hojundo1,
-			position: "Senior Analyst",
+			name: "Alden King",
+			image0: aldenking0,
+			image1: aldenking1,
+			position: "Analyst",
 			major: "BBA 2028",
-			ID: 157,
-			url: "https://www.linkedin.com/in/hojun-do/",
-		},
-		{
-			name: "Simryn Jawanda",
-			image0: simrynjawanda0,
-			image1: simrynjawanda1,
-			position: "Senior Analyst",
-			major: "BBA 2028",
-			ID: 150,
-			url: "https://www.linkedin.com/in/simryn-jawanda-a25531207/",
+			ID: 167,
+			url: "https://www.linkedin.com/in/alden-king-940a14336/",
 		},
 		{
 			name: "Brian Kang",
 			image0: briankang0,
 			image1: briankang1,
-			position: "Senior Analyst",
+			position: "Analyst",
 			major: "BBA 2028",
 			ID: 152,
 			url: "https://www.linkedin.com/in/sangyeon-kang/",
 		},
 		{
-			name: "Brian Kim",
-			image0: briankim0,
-			image1: briankim1,
-			position: "Senior Analyst",
-			major: "BBA 2027",
-			ID: 153,
-			url: "https://www.linkedin.com/in/brian-kim11/",
+			name: "Dylan Chee",
+			image0: dylanchee0,
+			image1: dylanchee1,
+			position: "Analyst",
+			major: "BBA 2028",
+			ID: 154,
+			url: "https://www.linkedin.com/in/dylan-chee/",
 		},
 		{
 			name: "Dylan Wang",
 			image0: dylanwang0,
 			image1: dylanwang1,
-			position: "Senior Analyst",
+			position: "Analyst",
 			major: "BBA 2028",
 			ID: 142,
 			url: "https://www.linkedin.com/in/dylan-wang-018047261/",
 		},
 		{
+			name: "Hojun Do",
+			image0: hojundo0,
+			image1: hojundo1,
+			position: "Analyst",
+			major: "BBA 2028",
+			ID: 157,
+			url: "https://www.linkedin.com/in/hojun-do/",
+		},
+		{
+			name: "Mburu Karimi",
+			image0: mburukarimi0,
+			image1: mburukarimi1,
+			position: "Analyst",
+			major: "Econ 2028",
+			ID: 165,
+			url: "https://www.linkedin.com/in/mburu-karimi/",
+		},
+		{
+			name: "Michelle Baik",
+			image0: michellebaik0,
+			image1: michellebaik1,
+			position: "Analyst",
+			major: "BBA 2028",
+			ID: 145,
+			url: "https://www.linkedin.com/in/michelle-baik/",
+		},
+		{
+			name: "Simryn Jawanda",
+			image0: simrynjawanda0,
+			image1: simrynjawanda1,
+			position: "Analyst",
+			major: "BBA 2028",
+			ID: 150,
+			url: "https://www.linkedin.com/in/simryn-jawanda-a25531207/",
+		},
+		{
+			name: "Simran Kaur",
+			image0: simrankaur0,
+			image1: simrankaur1,
+			position: "Analyst",
+			major: "Econ 2028",
+			ID: 166,
+			url: "https://www.linkedin.com/in/-simrankaur-/",
+		},
+		{
 			name: "Zachary Yoon-Kim",
 			image0: zacharyyoonkim0,
 			image1: zacharyyoonkim1,
-			position: "Senior Analyst",
+			position: "Analyst",
 			major: "Econ & CS 2028",
 			ID: 159,
 			url: "https://www.linkedin.com/in/zachary-yoon-kim/",
 		},
 	];
 
-
-	const seniorData = [
-		{
-			name: "Jiwoo Baik",
-			image0: jiwoobaik0,
-			image1: jiwoobaik1,
-			position: "Junior Advisor",
-			major: "Econ 2027",
-			ID: 143,
-			url: "https://www.linkedin.com/in/jiwoo-baik/",
-		},
-		{
-			name: "Alisha Gandhi",
-			image0: alishagandhi0,
-			image1: alishagandhi1,
-			position: "Junior Advisor",
-			major: "BBA 2027",
-			ID: 138,
-			url: "https://www.linkedin.com/in/alishasgandhi/",
-		},
-		{
-			name: "Sydney Goad",
-			image0: sydneygoad0,
-			image1: sydneygoad1,
-			position: "Junior Advisor",
-			major: "Junior Advisor",
-			ID: 115,
-			url: "https://www.linkedin.com/in/sydney-goad13/",
-		},
-		{
-			name: "Issei Hata",
-			image0: isseihata0,
-			image1: isseihata1,
-			position: "Junior Advisor",
-			major: "Econ & Math 2027",
-			ID: 127,
-			url: "https://www.linkedin.com/in/isseihata/",
-		},
-		{
-			name: "Caleb Lee",
-			image0: caleblee0,
-			image1: caleblee1,
-			position: "Junior Advisor",
-			major: "Data Science 2027",
-			ID: 132,
-			url: "https://www.linkedin.com/in/calebjl/",
-		},
-		{
-			name: "John Lee",
-			image0: johnlee0,
-			image1: johnlee1,
-			position: "Junior Advisor",
-			major: "BBA & Chinese 2027",
-			ID: 114,
-			url: "https://www.linkedin.com/in/john-y-lee/",
-		},
-		{
-			name: "Cynthia Li",
-			image0: cynthiali0,
-			image1: cynthiali1,
-			position: "Junior Advisor",
-			major: "BBA 2027",
-			ID: 129,
-			url: "https://www.linkedin.com/in/cynthia-j-li/",
-		},
-		{
-			name: "Sriyan Madugula",
-			image0: sriyanmadugula0,
-			image1: sriyanmadugula1,
-			position: "Junior Advisor",
-			major: "BBA & CS 2027",
-			ID: 125,
-			url: "https://www.linkedin.com/in/sriyanm/",
-		},
-		{
-			name: "Rhea Misra",
-			image0: rheamisra0,
-			image1: rheamisra1,
-			position: "Junior Advisor",
-			major: "IOE & CS 2027",
-			ID: 117,
-			url: "https://www.linkedin.com/in/rhea-misra-b15401245/",
-		},
-		{
-			name: "Rafael Opperman",
-			image0: rafaelopperman0,
-			image1: rafaelopperman1,
-			position: "Junior Advisor",
-			major: "IOE 2027",
-			ID: 149,
-			url: "https://www.linkedin.com/in/rafael-opperman-906739289/",
-		},
-		{
-			name: "Shiva Rajan",
-			image0: shivarajan0,
-			image1: shivarajan1,
-			position: "Junior Advisor",
-			major: "BBA 2027",
-			ID: 128,
-			url: "https://www.linkedin.com/in/-shivarajan/",
-		},
-		{
-			name: "Arav Rajesh",
-			image0: aravrajesh0,
-			image1: aravrajesh1,
-			position: "Junior Advisor",
-			major: "Econ & Statistics 2027",
-			ID: 130,
-			url: "https://www.linkedin.com/in/arav-rajesh/",
-		},
-		{
-			name: "Joy Ren",
-			image0: joyren0,
-			image1: joyren1,
-			position: "Junior Advisor",
-			major: "CS & Public Policy 2027",
-			ID: 123,
-			url: "https://www.linkedin.com/in/joyxren/",
-		},
-		{
-			name: "Archan Senthilvanan",
-			image0: archansenthilvanan0,
-			image1: archansenthilvanan1,
-			position: "Junior Advisor",
-			major: "BBA 2027",
-			ID: 139,
-			url: "https://www.linkedin.com/in/archan-senthilvanan/",
-		},
-		{
-			name: "Varun Talluri",
-			image0: varuntalluri0,
-			image1: varuntalluri1,
-			position: "Junior Advisor",
-			major: "BBA & CS 2027",
-			ID: 124,
-			url: "https://www.linkedin.com/in/varun-talluri/",
-		},
-		{
-			name: "Anish Thatiparthi",
-			image0: anishthatiparthi0,
-			image1: anishthatiparthi1,
-			position: "Junior Advisor",
-			major: "BBA 2027",
-			ID: 133,
-			url: "https://www.linkedin.com/in/anish-thatiparthi/",
-		},
+	const juniorData = [
 		{
 			name: "Aditi Vadakath",
 			image0: aditivadakath0,
 			image1: aditivadakath1,
-			position: "Junior Advisor",
+			position: "Member",
 			major: "BBA 2027",
 			ID: 116,
 			url: "https://www.linkedin.com/in/aditi-vadakath/",
 		},
 		{
+			name: "Alisha Gandhi",
+			image0: alishagandhi0,
+			image1: alishagandhi1,
+			position: "Member",
+			major: "BBA 2027",
+			ID: 138,
+			url: "https://www.linkedin.com/in/alishasgandhi/",
+		},
+		{
+			name: "Anish Thatiparthi",
+			image0: anishthatiparthi0,
+			image1: anishthatiparthi1,
+			position: "Member",
+			major: "BBA 2027",
+			ID: 133,
+			url: "https://www.linkedin.com/in/anish-thatiparthi/",
+		},
+		{
+			name: "Arav Rajesh",
+			image0: aravrajesh0,
+			image1: aravrajesh1,
+			position: "Member",
+			major: "Econ & Statistics 2027",
+			ID: 130,
+			url: "https://www.linkedin.com/in/arav-rajesh/",
+		},
+		{
+			name: "Archan Senthilvanan",
+			image0: archansenthilvanan0,
+			image1: archansenthilvanan1,
+			position: "Member",
+			major: "BBA 2027",
+			ID: 139,
+			url: "https://www.linkedin.com/in/archan-senthilvanan/",
+		},
+		{
+			name: "Brian Kim",
+			image0: briankim0,
+			image1: briankim1,
+			position: "Member",
+			major: "BBA 2027",
+			ID: 153,
+			url: "https://www.linkedin.com/in/brian-kim11/",
+		},
+		{
+			name: "Caleb Lee",
+			image0: caleblee0,
+			image1: caleblee1,
+			position: "Member",
+			major: "Data Science 2027",
+			ID: 132,
+			url: "https://www.linkedin.com/in/calebjl/",
+		},
+		{
+			name: "Cynthia Li",
+			image0: cynthiali0,
+			image1: cynthiali1,
+			position: "Member",
+			major: "BBA 2027",
+			ID: 129,
+			url: "https://www.linkedin.com/in/cynthia-j-li/",
+		},
+		{
 			name: "Isabella Xu",
 			image0: isabellaxu0,
 			image1: isabellaxu1,
-			position: "Junior Advisor",
+			position: "Advisor",
 			major: "Econ 2027",
 			ID: 122,
 			url: "https://www.linkedin.com/in/isabellaaxu/",
+		},
+		{
+			name: "Issei Hata",
+			image0: isseihata0,
+			image1: isseihata1,
+			position: "Member",
+			major: "Econ & Math 2027",
+			ID: 127,
+			url: "https://www.linkedin.com/in/isseihata/",
+		},
+		{
+			name: "Jiwoo Baik",
+			image0: jiwoobaik0,
+			image1: jiwoobaik1,
+			position: "Member",
+			major: "Econ 2027",
+			ID: 143,
+			url: "https://www.linkedin.com/in/jiwoo-baik/",
+		},
+		{
+			name: "John Lee",
+			image0: johnlee0,
+			image1: johnlee1,
+			position: "Advisor",
+			major: "BBA & Chinese 2027",
+			ID: 114,
+			url: "https://www.linkedin.com/in/john-y-lee/",
+		},
+		{
+			name: "Joy Ren",
+			image0: joyren0,
+			image1: joyren1,
+			position: "Member",
+			major: "CS & Public Policy 2027",
+			ID: 123,
+			url: "https://www.linkedin.com/in/joyxren/",
+		},
+		{
+			name: "Rafael Opperman",
+			image0: rafaelopperman0,
+			image1: rafaelopperman1,
+			position: "Member",
+			major: "IOE 2027",
+			ID: 149,
+			url: "https://www.linkedin.com/in/rafael-opperman-906739289/",
+		},
+		{
+			name: "Rhea Misra",
+			image0: rheamisra0,
+			image1: rheamisra1,
+			position: "Advisor",
+			major: "IOE & CS 2027",
+			ID: 117,
+			url: "https://www.linkedin.com/in/rhea-misra-b15401245/",
+		},
+		{
+			name: "Shiva Rajan",
+			image0: shivarajan0,
+			image1: shivarajan1,
+			position: "Member",
+			major: "BBA 2027",
+			ID: 128,
+			url: "https://www.linkedin.com/in/-shivarajan/",
+		},
+		{
+			name: "Sriyan Madugula",
+			image0: sriyanmadugula0,
+			image1: sriyanmadugula1,
+			position: "Member",
+			major: "BBA & CS 2027",
+			ID: 125,
+			url: "https://www.linkedin.com/in/sriyanm/",
+		},
+		{
+			name: "Sydney Goad",
+			image0: sydneygoad0,
+			image1: sydneygoad1,
+			position: "Advisor",
+			major: "BBA 2027",
+			ID: 115,
+			url: "https://www.linkedin.com/in/sydney-goad13/",
+		},
+		{
+			name: "Varun Talluri",
+			image0: varuntalluri0,
+			image1: varuntalluri1,
+			position: "Advisor",
+			major: "BBA & CS 2027",
+			ID: 124,
+			url: "https://www.linkedin.com/in/varun-talluri/",
+		},
+	];
+
+	const seniorData = [
+		{
+			name: "Amory Tin",
+			image0: amorytin0,
+			image1: amorytin1,
+			position: "Member",
+			major: "BBA 2026",
+			ID: 105,
+			url: "https://www.linkedin.com/in/amory-tin/",
 		},
 		{
 			name: "Ava Kurtz",
@@ -779,134 +795,8 @@ function RosterSection() {
 			image1: avakurtz0,
 			url: "https://www.linkedin.com/in/ava-kurtz-/",
 			ID: 135,
-			position: "Senior Advisor",
+			position: "Member",
 			major: "Econ 2026",
-		},
-		{
-			name: "Saathvik Hari",
-			image0: saathvikhari0,
-			image1: saathvikhari1,
-			position: "Senior Advisor",
-			major: "Econ & Data Science 2026",
-			ID: 111,
-			url: "https://www.linkedin.com/in/saathvik-hari/",
-		},
-		{
-			name: "Sydney Gaynor",
-			image0: sydneygaynor0,
-			image1: sydneygaynor1,
-			position: "Senior Advisor",
-			major: "BBA 2026",
-			ID: 137,
-			url: "https://www.linkedin.com/in/sydney-gaynor/",
-		},
-		{
-			name: "Niyati Kashyap",
-			image0: niyatikashyap0,
-			image1: niyatikashyap1,
-			position: "Senior Advisor",
-			major: "Data Science 2026",
-			ID: 131,
-			url: "https://www.linkedin.com/in/niyati-kashyap/",
-		},
-		{
-			name: "Min-Seok Kim",
-			image0: minseokkim0,
-			image1: minseokkim1,
-			position: "Senior Advisor",
-			major: "BBA 2026",
-			ID: 107,
-			url: "https://www.linkedin.com/in/min-seok-kim-6a7245252/",
-		},
-		{
-			name: "Eva Kumer",
-			image0: evakumer0,
-			image1: evakumer1,
-			position: "Senior Advisor",
-			major: "BBA 2026",
-			ID: 110,
-			url: "https://www.linkedin.com/in/evakumer/",
-		},
-		{
-			name: "Leo Leone",
-			image0: leoleone0,
-			image1: leoleone1,
-			position: "Senior Advisor",
-			major: "BBA & Information Analytics 2026",
-			ID: 106,
-			url: "https://www.linkedin.com/in/leo-leone-792515223/",
-		},
-		{
-			name: "Patrick Li",
-			image0: patrickli0,
-			image1: patrickli1,
-			position: "Senior Advisor",
-			major: "BBA & Political Science 2026",
-			ID: 102,
-			url: "https://www.linkedin.com/in/patrick-li-6a9296247/",
-		},
-		{
-			name: "Zafir Maker-Agha",
-			image0: zafirmakeragha0,
-			image1: zafirmakeragha1,
-			position: "Senior Advisor",
-			major: "BBA & Sustainability 2026",
-			ID: 121,
-			url: "https://www.linkedin.com/in/zafir-maker-agha/",
-		},
-		{
-			name: "Yaseen Metwally",
-			image0: yaseenmetwally0,
-			image1: yaseenmetwally1,
-			position: "Senior Advisor",
-			major: "BBA & Chemical Engineering 2026",
-			ID: 5,
-			url: "https://www.linkedin.com/in/yaseen-metwally-745067216/",
-		},
-		{
-			name: "Prah Pant",
-			image0: prahpant0,
-			image1: prahpant1,
-			position: "Senior Advisor",
-			major: "BBA 2026",
-			ID: 104,
-			url: "https://www.linkedin.com/in/prahpant/",
-		},
-		{
-			name: "Siri Pattipati",
-			image0: siripattipati0,
-			image1: siripattipati1,
-			position: "Senior Advisor",
-			major: "BBA 2026",
-			ID: 134,
-			url: "https://www.linkedin.com/in/siri-pattipati-87a155216/",
-		},
-		{
-			name: "Ilakiya Rajaguru",
-			image0: ilakiyarajaguru0,
-			image1: ilakiyarajaguru1,
-			position: "Senior Advisor",
-			major: "BBA 2026",
-			ID: 4,
-			url: "https://www.linkedin.com/in/ilakiya-rajaguru-9a9530232/",
-		},
-		{
-			name: "Sophie Richards",
-			image0: sophierichards0,
-			image1: sophierichards1,
-			position: "Senior Advisor",
-			major: "BBA 2026",
-			ID: 109,
-			url: "https://www.linkedin.com/in/sophrich/",
-		},
-		{
-			name: "Amory Tin",
-			image0: amorytin0,
-			image1: amorytin1,
-			position: "Senior Advisor",
-			major: "BBA 2026",
-			ID: 105,
-			url: "https://www.linkedin.com/in/amory-tin/",
 		},
 		{
 			name: "Azra Tokovic",
@@ -914,14 +804,32 @@ function RosterSection() {
 			image1: azratokovic1,
 			url: "https://www.linkedin.com/in/azra-tokovic/",
 			ID: 136,
-			position: "Senior Advisor",
+			position: "Member",
 			major: "BBA 2026",
+		},
+		{
+			name: "Eva Kumer",
+			image0: evakumer0,
+			image1: evakumer1,
+			position: "Member",
+			major: "BBA 2026",
+			ID: 110,
+			url: "https://www.linkedin.com/in/evakumer/",
+		},
+		{
+			name: "Ilakiya Rajaguru",
+			image0: ilakiyarajaguru0,
+			image1: ilakiyarajaguru1,
+			position: "Member",
+			major: "BBA 2026",
+			ID: 4,
+			url: "https://www.linkedin.com/in/ilakiya-rajaguru-9a9530232/",
 		},
 		{
 			name: "Jessica Tran",
 			image0: jessicatran0,
 			image1: jessicatran1,
-			position: "Senior Advisor",
+			position: "Member",
 			major: "BBA 2026",
 			ID: 112,
 			url: "https://www.linkedin.com/in/jessica-tran-39582a205/",
@@ -930,10 +838,109 @@ function RosterSection() {
 			name: "Julia Zhang",
 			image0: juliazhang0,
 			image1: juliazhang1,
-			position: "Senior Advisor",
+			position: "Member",
 			major: "BBA 2026",
 			ID: 108,
 			url: "https://www.linkedin.com/in/julia-m-zhang/",
+		},
+		{
+			name: "Leo Leone",
+			image0: leoleone0,
+			image1: leoleone1,
+			position: "Member",
+			major: "BBA & Information Analytics 2026",
+			ID: 106,
+			url: "https://www.linkedin.com/in/leo-leone-792515223/",
+		},
+		{
+			name: "Min-Seok Kim",
+			image0: minseokkim0,
+			image1: minseokkim1,
+			position: "Member",
+			major: "BBA 2026",
+			ID: 107,
+			url: "https://www.linkedin.com/in/min-seok-kim-6a7245252/",
+		},
+		{
+			name: "Niyati Kashyap",
+			image0: niyatikashyap0,
+			image1: niyatikashyap1,
+			position: "Member",
+			major: "Data Science 2026",
+			ID: 131,
+			url: "https://www.linkedin.com/in/niyati-kashyap/",
+		},
+		{
+			name: "Patrick Li",
+			image0: patrickli0,
+			image1: patrickli1,
+			position: "Advisor",
+			major: "BBA & Political Science 2026",
+			ID: 102,
+			url: "https://www.linkedin.com/in/patrick-li-6a9296247/",
+		},
+		{
+			name: "Prah Pant",
+			image0: prahpant0,
+			image1: prahpant1,
+			position: "Member",
+			major: "BBA 2026",
+			ID: 104,
+			url: "https://www.linkedin.com/in/prahpant/",
+		},
+		{
+			name: "Saathvik Hari",
+			image0: saathvikhari0,
+			image1: saathvikhari1,
+			position: "Member",
+			major: "Econ & Data Science 2026",
+			ID: 111,
+			url: "https://www.linkedin.com/in/saathvik-hari/",
+		},
+		{
+			name: "Siri Pattipati",
+			image0: siripattipati0,
+			image1: siripattipati1,
+			position: "Member",
+			major: "BBA 2026",
+			ID: 134,
+			url: "https://www.linkedin.com/in/siri-pattipati-87a155216/",
+		},
+		{
+			name: "Sophie Richards",
+			image0: sophierichards0,
+			image1: sophierichards1,
+			position: "Member",
+			major: "BBA 2026",
+			ID: 109,
+			url: "https://www.linkedin.com/in/sophrich/",
+		},
+		{
+			name: "Sydney Gaynor",
+			image0: sydneygaynor0,
+			image1: sydneygaynor1,
+			position: "Member",
+			major: "BBA 2026",
+			ID: 137,
+			url: "https://www.linkedin.com/in/sydney-gaynor/",
+		},
+		{
+			name: "Yaseen Metwally",
+			image0: yaseenmetwally0,
+			image1: yaseenmetwally1,
+			position: "Member",
+			major: "BBA & Chemical Engineering 2026",
+			ID: 5,
+			url: "https://www.linkedin.com/in/yaseen-metwally-745067216/",
+		},
+		{
+			name: "Zafir Maker-Agha",
+			image0: zafirmakeragha0,
+			image1: zafirmakeragha1,
+			position: "Member",
+			major: "BBA & Sustainability 2026",
+			ID: 121,
+			url: "https://www.linkedin.com/in/zafir-maker-agha/",
 		},
 	];
 
@@ -1032,11 +1039,11 @@ function RosterSection() {
 				<SmallSpacer />
 				<TextContainer>
 					<TitleText style={{ marginLeft: "2vmin" }}>
-						Business Analysts
+						Class of 2029
 					</TitleText>
 				</TextContainer>
 				<NewLine />
-				{analystData.map((data) => (
+				{freshmanData.map((data) => (
 					<a
 						href={data.url}
 						target="_blank"
@@ -1082,7 +1089,107 @@ function RosterSection() {
 				<SmallSpacer />
 				<TextContainer>
 					<TitleText style={{ marginLeft: "2vmin" }}>
-						Advisors
+						Class of 2028
+					</TitleText>
+				</TextContainer>
+				<NewLine />
+				{sophomoreData.map((data) => (
+					<a
+						href={data.url}
+						target="_blank"
+						style={{ textDecoration: "none" }}
+					>
+						<CardContainer>
+							<CardImage
+								style={{
+									backgroundImage: `url(${data.image0})`,
+								}}
+							/>
+							<CardImageHover
+								onMouseEnter={() => setHoverID2(data.ID)}
+								onMouseLeave={() => setHoverID2(0)}
+								style={{
+									opacity:
+										hoverID2 === data.ID ? "100%" : "0%",
+									backgroundImage: `url(${data.image1})`,
+								}}
+							/>
+							<NewLine />
+							<TextContainer>
+								<CardTitle>{data.name}</CardTitle>
+								<TinySpacer />
+								<CardHeader>
+									{hoverID2 === data.ID ? data.major : data.position}
+								</CardHeader>
+
+								<CardHeaderHover
+									onMouseEnter={() => setHoverID2(data.ID)}
+									onMouseLeave={() => setHoverID2(0)}
+									style={{
+										backgroundImage: `url(${data.image1})`,
+									}}
+								/>
+							</TextContainer>
+						</CardContainer>
+					</a>
+				))}
+			</PositionContainer>
+
+			<PositionContainer>
+				<SmallSpacer />
+				<TextContainer>
+					<TitleText style={{ marginLeft: "2vmin" }}>
+						Class of 2027
+					</TitleText>
+				</TextContainer>
+				<NewLine />
+				{juniorData.map((data) => (
+					<a
+						href={data.url}
+						target="_blank"
+						style={{ textDecoration: "none" }}
+					>
+						<CardContainer>
+							<CardImage
+								style={{
+									backgroundImage: `url(${data.image0})`,
+								}}
+							/>
+							<CardImageHover
+								onMouseEnter={() => setHoverID2(data.ID)}
+								onMouseLeave={() => setHoverID2(0)}
+								style={{
+									opacity:
+										hoverID2 === data.ID ? "100%" : "0%",
+									backgroundImage: `url(${data.image1})`,
+								}}
+							/>
+							<NewLine />
+							<TextContainer>
+								<CardTitle>{data.name}</CardTitle>
+								<TinySpacer />
+								<CardHeader>
+									{hoverID2 === data.ID ? data.major : data.position}
+								</CardHeader>
+
+								<CardHeaderHover
+									onMouseEnter={() => setHoverID2(data.ID)}
+									onMouseLeave={() => setHoverID2(0)}
+									style={{
+										backgroundImage: `url(${data.image1})`,
+									}}
+								/>
+							</TextContainer>
+						</CardContainer>
+					</a>
+				))}
+			</PositionContainer>
+
+			<PositionContainer>
+				<SmallSpacer />
+				<TextContainer>
+					<TitleText style={{ marginLeft: "2vmin" }}>
+						Class of 2026
 					</TitleText>
 				</TextContainer>
 				<NewLine />
