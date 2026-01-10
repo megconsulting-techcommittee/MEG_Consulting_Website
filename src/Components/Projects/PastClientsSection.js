@@ -9,8 +9,8 @@ import michigan from '../../Images/Projects/Clients/michigan.png';
 import mosburger from '../../Images/Projects/Clients/mosburger.png';
 import nba from '../../Images/Projects/Clients/nba.png';
 import siemens from '../../Images/Projects/Clients/siemens.png';
-import sisterpie from '../../Images/Projects/Clients/sisterpie.png';
-import smitten from '../../Images/Projects/Clients/smitten.png';
+import wholefoods from '../../Images/Projects/Clients/wholefoods.png';
+import bluecrossblueshield from '../../Images/Projects/Clients/bluecrossblueshield.png';
 import soulcycle from '../../Images/Projects/Clients/soulcycle.png';
 import zingermans from '../../Images/Projects/Clients/zingermans.png';
 import zoominfo from '../../Images/Projects/Clients/zoominfo.png';
@@ -81,8 +81,8 @@ function SummarySection() {
     michigan,
     cityofa2,
     mosburger,
-    sisterpie,
-    smitten,
+    wholefoods,
+    bluecrossblueshield,
     soulcycle,
     zingermans,
     zoominfo,
