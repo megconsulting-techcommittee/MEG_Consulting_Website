@@ -38,7 +38,7 @@ const SkillsSection = () => {
 
   return (
     <SectionContainer>
-        <TitleText>OUR CAPABILITIES</TitleText>
+      <TitleText>OUR CAPABILITIES</TitleText>
       <TextContainer>
         <SkillDropdown
           title="CUSTOMER RETENTION"
@@ -46,9 +46,9 @@ const SkillsSection = () => {
           scope="Orchestrated customer acquisition and retention campaign for $21B retailer by studying Gen Z retail preferences and competitor loyalty programs. Launched Qualtrics survey, focus group and conducted internal analysis in order to deliver UI/UX recommendations and new features ideas for rewards app of 8M users."
         />
         <SkillDropdown
-          title="TALENT ACQUISITION"
-          client="Global Furniture Brand"
-          scope="Curated employer branding strategy for a large furniture company by analyzing successful case studies, conducting a social media audit, and synthesizing internal hiring data. Compiled research to construct a sustainable talent acquisition model and develop new campaigns that boost minority visibility by 10%."
+          title="AI INTEGRATION"
+          client="National Medical Insurance Provider"
+          scope="Assessed healthcare insurer’s workforce readiness for AI integration, focusing on technical and cultural alignment, to build an AI integration framework based on the AI governance model that included KPI dashboards, cultural surveys, and review systems."
         />
         <SkillDropdown
           title="MARKET GROWTH"
