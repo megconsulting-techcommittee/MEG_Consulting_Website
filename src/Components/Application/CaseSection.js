@@ -208,7 +208,7 @@ function CaseSection(props) {
                         <TitleText>Clarifying Questions</TitleText>
                         <SmallSpacer style={{ height: "2vmax" }} />
                         <BodyText>
-                            Now that you've had some time to brainstorm, here are a few questions we thought of:
+                            Now that you've been able to brainstorm, here are a few questions you might ask:
                             <br /><br /> “Is there a specific profitability metric Unicloth is looking to achieve?”
                             <br /> “Has this been a trend seen across the clothing retail market, or only for Unicloth?”
                             <br /> “What are Unicloth’s main products? How do their U.S. offerings compare to their offerings in Asia?”
@@ -231,13 +231,15 @@ function CaseSection(props) {
                         <SmallSpacer style={{ height: "2vmax" }} />
                         <BodyText>
                             A framework is a structured way to break a complex business problem into clear, logical pieces.
-                            <br /><br />Frameworks help you:
-                            <br />-Stay organized under pressure
-                            <br />-Avoid jumping randomly between ideas
-                            <br />-Show the interviewer how you think, not just what you think
-                            <br /><br />There is no single “correct” framework.
-                            What matters is that yours is <u>logical, easy to follow, and relevant to the problem</u>
-                            <br /><br />Try drafting a framework with a few areas of analysis you think would be important to solving this case. When you're ready, move to the next slide to see our example.
+                            <br /><br />Frameworks are generally made of two to three buckets
+                            that help you stay organized, maintain structure, and
+                            show the interviewer how you think.
+                            <br /><br />There is no single “correct” framework, but all frameworks should follow the <b> MECE format:
+                             Mutually Exclusive, Completely Exhaustive.</b>
+                            <br /><br /> Your buckets should essentially cover all areas that may be useful for the solution,
+                            while ensuring that they don't overlap with each other.
+                            <br /><br />Try drafting a framework with a few areas of analysis you think would be important to solving this case.
+                            When you're ready, move to the next slide to see our example.
                         </BodyText>
                     </TextContainer>
                     <ContentImage src={case1} />
@@ -247,18 +249,21 @@ function CaseSection(props) {
             <SlideContainer style={{ transform: caseID >= 6 ? "translateX(0vw)" : "translateX(100vw)" }}>
                 <ContentContainer>
                     <TextContainer>
-                        <TitleText>Example Framework</TitleText>
+                        <TitleText>Framework and Buckets</TitleText>
                         <SmallSpacer style={{ height: "2vmax" }} />
                         <BodyText>
-                            Now that you've had some time to brainstorm, here’s a simple framework we thought of
-                            that breaks the profitability problem into its two core components: revenue and costs.
-                            <br /><br />Revenue Sources: mall stores, flagship store, online sales
-                            <br /><br />Costs: cost of goods sold, operating costs, logistics and inventory costs, administrative costs
-                            <br /><br />Using this framework, we will be able to analyze the factors that
-                            contribute to Unicloth’s profits and determine specific areas for improvement.
-                            Remember, a good framework maps out a problem and gives you direction to solve a case.
-
-
+                            Below is a simple framework that breaks the profitability problem into its two core components: revenue and costs.
+                            <ul>
+                                <li>Revenue can be broken down into quantity and price.
+                                Quantity can entail distribution strategies, such as malls, flagship store, and online sales.
+                                Pricing can involve competitive analysis and dynamic market pricing.</li>
+                                <li>Costs can be broken down into variable and fixed costs.
+                                Variable costs include the cost of goods sold, logistics and inventory costs, and employee salaries.
+                                Fixed costs may involve operating costs, administrative costs, and rent.</li>
+                            </ul>
+                            With this framework, we can further analyze Unicloth’s operations and create a specific recommendation.
+                            Again, your framework could look completely different!
+                            All that matters is that it touches on key areas that are applicable to the problem at hand.
                         </BodyText>
                     </TextContainer>
                     <ContentImage src={case1} />
@@ -272,13 +277,14 @@ function CaseSection(props) {
                         <SmallSpacer style={{ height: "2vmax" }} />
                         <BodyText>
                             From here on, the interviewer will guide you through the rest of your interview. Further prompts may involve:
-                            <br />-Asking you to analyze one specific part of your framework in more depth
-                            <br />-Providing data or exhibits (charts, tables, etc) and asking you to interpret them
-                            <br />-Asking you to perform basic calculations (profit, market sizing, etc)
-                            <br />-Asking you to synthesize your findings and make a clear, structured recommendation
-
-                            <br /><br />Remember, you are not expected to always be “right”. The main goal of a case interview is to assess how you think.
-                            Therefore, make sure you communicate your logic clearly and calmly, and talk through your reasoning
+                            <br />Asking you to analyze one specific part of your framework in more depth
+                             <ul>
+                                <li>Providing data or exhibits (charts, tables, etc) and asking you to interpret them</li>
+                                <li>Asking you to perform basic calculations (profit, market sizing, etc)</li>
+                                <li>Asking you to synthesize your findings and make a clear, structured recommendation</li>
+                            </ul>
+                            Remember, you are not expected to always be “right”. The main goal of a case interview is to assess how you think.
+                            Therefore, make sure you communicate your logic clearly and calmly, and talk through your reasoning. Good luck!
 
                         </BodyText>
                     </TextContainer>

@@ -136,10 +136,13 @@ function BehavioralSection(props){
                     <TextContainer>
                         <TitleText>The Behavioral Interview: Your Story </TitleText>
                         <SmallSpacer/>
-                        <ContentText>
-                            The behavioral interview is all about learning more about you as a person and as a peer. We use these interviews to predict your potential future performance.
-                            <br/><br/>Most of the interview will consist of you telling us stories where you showed a soft skill that we consider important as a MEG member.
-                        </ContentText>
+                        <BodyText>
+                            The behavioral interview is all about learning more about you as a person and as a peer.
+                            We use these interviews to gauge aspects such as <b>teamwork, leadership, personal growth, and more.</b>
+                            <br/><br/>Most of the interview will consist of you telling us stories of a time in the past
+                            where you may have encountered a difficult situation or demonstrated a certain quality that
+                            we deem important as a member of MEG.
+                        </BodyText>
                     </TextContainer>
                     <ContentImage src={story}/>
                 </ContentContainer>
@@ -151,11 +154,16 @@ function BehavioralSection(props){
                     <TextContainer>
                         <SmallSpacer/>
                         <BodyText>
-                            As behavioral interviews are extremely common in the professional world there are a lot of online resources to help you prepare and I've listed some below.
+                            As behavioral interviews are extremely common in the professional world,
+                            there are a lot of online resources to help you prepare.
+                            Below are a couple of links that may be useful when preparing for your interview:
                             <ul>
-                                <li><a href="https://www.themuse.com/advice/behavioral-interview-questions-answers-examples" target="_blank">A list of example questions</a> so you can practice. We typically select a handful of questions from databases like this.</li>
-                                <li><a href="https://joinhandshake.com/blog/students/interview-pro-tips-how-to-nail-a-behavioral-interview/" target="_blank">Some helpful tips and frameworks</a>. The STAR model mentioned in this article is pretty ubiquitous and serves as a solid foundation</li>
-                                <li><a href="https://www.youtube.com/watch?v=zoGZQatkqKg" target="_blank">A video on the STAR Method</a>. See the STAR Method used with practice examples as well as some other helpful tips</li>
+                                <li><a href="https://www.themuse.com/advice/behavioral-interview-questions-answers-examples" target="_blank">A list of example questions</a> so you can practice.
+                                Besides the basics like "Tell me about yourself" or "Walk me through your resume", we typically select a handful of questions from databases like this.</li>
+                                <li><a href="https://joinhandshake.com/blog/students/interview-pro-tips-how-to-nail-a-behavioral-interview/" target="_blank">Some helpful tips and frameworks</a>.
+                                The STAR model mentioned in this article serves as a solid foundation and allows you to retain structure in your answers.</li>
+                                <li><a href="https://www.youtube.com/watch?v=zoGZQatkqKg" target="_blank">A video on the STAR Method</a>.
+                                See the STAR Method used with practice examples as well as some other helpful tips.</li>
                             </ul>
                         </BodyText>
                     </TextContainer>
@@ -168,12 +176,17 @@ function BehavioralSection(props){
                 <ContentContainer>
                     <TextContainer>
                         <BodyText>
-                            As behavioral interviews are extremely common in the professional world there are a lot of online resources to help you prepare and I've listed some below.
+                            But besides preparing with online resources, below are some pieces of advice you should keep in mind for the big day:
                             <ul>
-                                <li>Collect a few of your own experiences that you think would work well with behavioral questions and practice telling these stories in a structured manner (like the STAR method).</li>
-                                <li>Be calm even with questions that you haven't prepared. It is definitely possible (and very encouraged!) to take a prepared story and change it enough to match the unexpected question.</li>
-                                <li>Be personable and nice. Behavioral interviews are more than measurements of your soft skills, we also want to see if you fit well within our club.</li>
+                                <li>Collect a few of your own experiences that you think would work well with behavioral questions
+                                    and practice telling these stories with the STAR method.</li>
+                                <li>Be calm even with questions that you haven't prepared. You can't predict every question, but you should be able
+                                    to take a prepared story and change it enough to match the unexpected question.</li>
+                                <li>Be personable and nice. Behavioral interviews are more than measurements of your soft skills - 
+                                    we are also evaluating your attitude!</li>
                             </ul>
+                            Ultimately, as long as you remain calm, be conversational, and have your stories prepared,
+                            you will without a doubt do well in your interview!
                         </BodyText>
                     </TextContainer>
                     <ContentImage src={practice}/>
