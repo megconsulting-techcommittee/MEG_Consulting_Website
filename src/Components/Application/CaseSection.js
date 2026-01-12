@@ -174,8 +174,8 @@ function CaseSection(props) {
                             ago, they have struggled to achieve that goal and have engaged our firm to find
                             out why and to recommend next steps. How can we help?"
                             <br /><br />
-                            That's all you get! <u>How do you approach this case?</u>
-                            Write down or imagine what you would do if this prompt was given to you.
+                            That's all you get! <u>How do you approach this case?</u> Write down
+                            or imagine what you would do if this prompt was given to you.
                             When you're done, move on to the next slide to see what we would expect from you.
                         </BodyText>
                     </TextContainer>
@@ -236,7 +236,7 @@ function CaseSection(props) {
                             <br />-Avoid jumping randomly between ideas
                             <br />-Show the interviewer how you think, not just what you think
                             <br /><br />There is no single “correct” framework.
-                            What matters is that yours is logical, easy to follow, and relevant to the problem
+                            What matters is that yours is <u>logical, easy to follow, and relevant to the problem</u>
                             <br /><br />Try drafting a framework with a few areas of analysis you think would be important to solving this case. When you're ready, move to the next slide to see our example.
                         </BodyText>
                     </TextContainer>
