@@ -166,8 +166,8 @@ function WrittenSection(props){
                         <TitleText>Ok Fine, It's A Bit About Us</TitleText>
                         <SmallSpacer/>
                         <ContentText>
-                            We also want to know <b style={{cursor: "default"}} onMouseLeave={()=>{setHoverWritten(0)}} onMouseEnter={()=>{setHoverWritten(1)}}><u>why</u></b> you chose to apply to MEG.
-                            We want to make sure you're excited to apply because we're <b style={{cursor: "default"}} onMouseLeave={()=>{setHoverWritten(0)}} onMouseEnter={()=>{setHoverWritten(2)}}><u>excited</u></b> to meet you.
+                            We also want to know <b><u>why</u></b> you chose to apply to MEG.
+                            We want to make sure you're excited to apply because we're <b><u>excited</u></b> to meet you.
                             <br/><br/> If you're genuinely interested in us, we're going to be genuinely interested in you! 
                         </ContentText>
                     </TextContainer>
