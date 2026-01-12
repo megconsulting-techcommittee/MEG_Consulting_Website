@@ -151,8 +151,8 @@ function WrittenSection(props){
                         <SmallSpacer/>
                         <ContentText>
                             The <span onMouseLeave={()=>{setHoverWritten(0)}} onMouseEnter={()=>{setHoverWritten(1)}} style={{fontFamily: "hachura, sansSerif", fontWeight: 400, fontStyle: "normal", textDecoration: "underline", textDecorationColor:"gray", cursor: "default"}}>written application</span> is your first opportunity to <i>really</i> let us know more about <b style={{cursor: "default"}} onMouseLeave={()=>{setHoverWritten(0)}} onMouseEnter={()=>{setHoverWritten(2)}}><u>you!</u></b>
-                            <br/><br/> Let us know why you should be a member of MEG: What are your <b style={{cursor: "default"}} onMouseLeave={()=>{setHoverWritten(0)}} onMouseEnter={()=>{setHoverWritten(3)}}><u>strengths</u></b> and what
-                            makes you <b style={{cursor: "default"}} onMouseLeave={()=>{setHoverWritten(0)}} onMouseEnter={()=>{setHoverWritten(4)}}><u>unique</u></b>! 
+                            <br/><br/> Let us know why you should be a member of MEG: What are your <b><u>strengths</u></b> and what
+                            makes you <b><u>unique</u></b>! 
                         </ContentText>
                     </TextContainer>
                     <ContentImage src={images1[hoverWritten]}/>
