@@ -235,7 +235,7 @@ function CaseSection(props) {
                             that help you stay organized, maintain structure, and
                             show the interviewer how you think.
                             <br /><br />There is no single “correct” framework, but all frameworks should follow the <b> MECE format:
-                                Mutually Exclusive, Completely Exhaustive.</b>
+                                Mutually Exclusive, Collectively Exhaustive.</b>
                             <br /><br /> Your buckets should essentially cover all areas that may be useful for the solution,
                             while ensuring that they don't overlap with each other.
                             <br /><br />Try drafting a framework with a few areas of analysis you think would be important to solving this case.
