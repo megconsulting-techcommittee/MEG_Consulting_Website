@@ -53,6 +53,7 @@ const ContentContainer = styled.div`
 
 const TitleText = styled.h2`
     font-size: 3vw;
+      line-height: 1.1;
     font-family: futura-pt, sans-serif;
     margin: 0;
     padding: 0;
@@ -133,7 +134,7 @@ function CaseSection(props) {
                 <ContentContainer>
                     <TextContainer>
                         <TitleText>The Case Interview: Business Thinking and Critical Analysis! </TitleText>
-                        <SmallSpacer />
+                        <SmallSpacer style={{ height: "2vmax" }} />
                         <BodyText>
                             The case interview is a way for us to test how well you are able to problem solve, how strong your business senses,
                             and measure other qualities we think are important for our members.
@@ -149,7 +150,7 @@ function CaseSection(props) {
                 <ContentContainer>
                     <TextContainer>
                         <TitleText>What Even is a Case Interview?</TitleText>
-                        <SmallSpacer />
+                        <SmallSpacer style={{ height: "2vmax" }} />
                         <BodyText>
                             A case interview looks at a hypothetical business problem and asks the interviewee to solve the issue. Common business issues case interviews will look at are profitability, market sizing, mergers and acquisition, and business expansion.
                             <br /><br /> To show the structure and key concepts that you need to know for your case interview, we'll go through a mock case found in the 2017 Edition of The Wharton Case Book. If you would like additional case practice, firms like Bain and McKinsey publish mock cases on their websites.
@@ -160,12 +161,11 @@ function CaseSection(props) {
                 </ContentContainer>
             </SlideContainer>
 
-
             <SlideContainer style={{ transform: caseID >= 2 ? "translateX(0vw)" : "translateX(100vw)" }}>
                 <ContentContainer>
                     <TextContainer>
                         <TitleText>Mock Case Intro: Unicloth</TitleText>
-                        <SmallSpacer />
+                        <SmallSpacer style={{ height: "2vmax" }} />
                         <BodyText>
                             A case interview starts with the interviewer giving a little bit of exposition on the business issue. Here is ours:
                             <br /><br />
@@ -211,7 +211,7 @@ function CaseSection(props) {
                             Now that you've been able to brainstorm, here are a few questions you might ask:
                             <br /><br /> “Is there a specific profitability metric Unicloth is looking to achieve?”
                             <br /> “Has this been a trend seen across the clothing retail market, or only for Unicloth?”
-                            <br /> “What are Unicloth’s main products? How do their U.S. offerings compare to their offerings in Asia?”
+                            <br /> “What are Unicloth’s main products? How do their compare their offerings in Asia?”
                             <br /> <br /> Keep in mind, this list is by no means exhaustive.
                             Any question that helps you better understand the case is a valid one.
                             Remember, your overall goal should always be to work toward <b>solving the problem.</b>
@@ -259,7 +259,7 @@ function CaseSection(props) {
                                     Pricing can involve competitive analysis and dynamic market pricing.</li>
                                 <li>Costs can be broken down into variable and fixed costs.
                                     Variable costs include the cost of goods sold, logistics and inventory costs, and employee salaries.
-                                    Fixed costs may involve operating costs, administrative costs, and rent.</li>
+                                    Fixed costs include operating costs, administrative costs, and rent.</li>
                             </ul>
                             With this framework, we can further analyze Unicloth’s operations and create a specific recommendation.
                             Again, your framework could look completely different!
@@ -282,7 +282,7 @@ function CaseSection(props) {
                                 <li>Asking you to analyze one specific part of your framework in more depth</li>
                                 <li>Providing data or exhibits (charts, tables, etc) and asking you to interpret them</li>
                                 <li>Asking you to perform basic calculations (profit, market sizing, etc)</li>
-                                <li>Asking you to synthesize your findings and make a clear, structured recommendation</li>
+                                <li>Asking you to synthesize your findings and make a recommendation</li>
                             </ul>
                             Remember, you are not expected to always be “right”. The main goal of a case interview is to assess how you think.
                             Therefore, make sure you communicate your logic clearly and calmly, and talk through your reasoning. Good luck!
