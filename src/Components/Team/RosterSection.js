@@ -151,6 +151,28 @@ import solomondeyoung0 from "../../Images/Team/headshots/solomondeyoung0.png";
 import solomondeyoung1 from "../../Images/Team/headshots/solomondeyoung1.png";
 import timothywang0 from "../../Images/Team/headshots/timothywang0.png";
 import timothywang1 from "../../Images/Team/headshots/timothywang1.png";
+import anvipalli0 from "../../Images/Team/headshots/anvipalli0.png";
+import anvipalli1 from "../../Images/Team/headshots/anvipalli1.png";
+import ashishrajam0 from "../../Images/Team/headshots/ashishrajam0.png";
+import ashishrajam1 from "../../Images/Team/headshots/ashishrajam1.png";
+import auburnschnelker0 from "../../Images/Team/headshots/auburnschnelker0.png";
+import auburnschnelker1 from "../../Images/Team/headshots/auburnschnelker1.png";
+import avachase0 from "../../Images/Team/headshots/avachase0.png";
+import avachase1 from "../../Images/Team/headshots/avachase1.png";
+import echoli0 from "../../Images/Team/headshots/echoli0.png";
+import echoli1 from "../../Images/Team/headshots/echoli1.png";
+import hasinibhogi0 from "../../Images/Team/headshots/hasinibhogi0.png";
+import hasinibhogi1 from "../../Images/Team/headshots/hasinibhogi1.png";
+import matthewcui0 from "../../Images/Team/headshots/matthewcui0.png";
+import matthewcui1 from "../../Images/Team/headshots/matthewcui1.png";
+import rheakavuru0 from "../../Images/Team/headshots/rheakavuru0.png";
+import rheakavuru1 from "../../Images/Team/headshots/rheakavuru1.png";
+import rishakohli0 from "../../Images/Team/headshots/rishakohli0.png";
+import rishakohli1 from "../../Images/Team/headshots/rishakohli1.png";
+import robertanderson0 from "../../Images/Team/headshots/robertanderson0.png";
+import robertanderson1 from "../../Images/Team/headshots/robertanderson1.png";
+import tydellay0 from "../../Images/Team/headshots/tydellay0.png";
+import tydellay1 from "../../Images/Team/headshots/tydellay1.png";
 
 const SectionContainer = styled.div`
 	width: 100vw;
@@ -426,6 +448,7 @@ function RosterSection() {
 			url: "https://www.linkedin.com/in/rithvik-tripuraneni/",
 		},
 
+
 	];
 
 	const freshmanData = [
@@ -510,6 +533,96 @@ function RosterSection() {
 			major: "BBA 2029",
 			ID: 172,
 			url: "https://www.linkedin.com/in/timothy-yh-wang/",
+		},
+		{
+			name: "Anvi Palli",
+			image0: anvipalli0,
+			image1: anvipalli1,
+			position: "Analyst",
+			major: "BBA 2029",
+			ID: 173,
+			url: "https://www.linkedin.com/in/anvi-palli/",
+		},
+		{
+			name: "Robert Anderson",
+			image0: robertanderson0,
+			image1: robertanderson1,
+			position: "Analyst",
+			major: "Mechanical Engineering 2029",
+			ID: 174,
+			url: "https://www.linkedin.com/in/robertanderson20/",
+		},
+		{
+			name: "Ty Dellay",
+			image0: tydellay0,
+			image1: tydellay1,
+			position: "Analyst",
+			major: "IOE 2029",
+			ID: 176,
+			url: "https://www.linkedin.com/in/ty-dellay-408b75305/",
+		},
+		{
+			name: "Auburn Schnelker",
+			image0: auburnschnelker0,
+			image1: auburnschnelker1,
+			position: "Analyst",
+			major: "BBA 2029",
+			ID: 177,
+			url: "https://www.linkedin.com/in/auburn-schnelker-630635352/",
+		},
+		{
+			name: "Echo Li",
+			image0: echoli0,
+			image1: echoli1,
+			position: "Analyst",
+			major: "Econ 2029",
+			ID: 178,
+			url: "https://www.linkedin.com/in/echo-li2029/",
+		},
+		{
+			name: "Ava Chase",
+			image0: avachase0,
+			image1: avachase1,
+			position: "Analyst",
+			major: "Econ 2029",
+			ID: 179,
+			url: "https://www.linkedin.com/in/ava-chase-7648a4311/",
+		},
+		{
+			name: "Rhea Kavuru",
+			image0: rheakavuru0,
+			image1: rheakavuru1,
+			position: "Analyst",
+			major: "BBA and Math 2029",
+			ID: 179,
+			url: "https://www.linkedin.com/in/rhea-kavuru/",
+		},
+		{
+			name: "Matthew Cui",
+			image0: matthewcui0,
+			image1: matthewcui1,
+			position: "Analyst",
+			major: "BBA 2029",
+			ID: 180,
+			url: "https://www.linkedin.com/in/matthew-cui-094259308/",
+		},
+		{
+			name: "Hasini Bhogi",
+			image0: hasinibhogi0,
+			image1: hasinibhogi1,
+			position: "Analyst",
+			major: "BBA 2029",
+			ID: 181,
+			url: "https://www.linkedin.com/in/hasini-bhogi/",
+		},
+		{
+			name: "Risha Kohli",
+			image0: rishakohli0,
+			image1: rishakohli1,
+			position: "Analyst",
+			major: "BBA 2029",
+			ID: 182,
+			url: "https://www.linkedin.com/in/risha-kohli/",
 		},
 
 	];
@@ -604,6 +717,15 @@ function RosterSection() {
 			major: "Econ & CS 2028",
 			ID: 159,
 			url: "https://www.linkedin.com/in/zachary-yoon-kim/",
+		},
+		{
+			name: "Ashish Rajam",
+			image0: ashishrajam0,
+			image1: ashishrajam1,
+			position: "Analyst",
+			major: "Mechanical Engineering 2028",
+			ID: 175,
+			url: "https://www.linkedin.com/in/ashishrajam/",
 		},
 	];
 
