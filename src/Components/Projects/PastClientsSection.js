@@ -11,15 +11,15 @@ import nba from '../../Images/Projects/Clients/nba.png';
 import siemens from '../../Images/Projects/Clients/siemens.png';
 import wholefoods from '../../Images/Projects/Clients/wholefoods.png';
 import bluecrossblueshield from '../../Images/Projects/Clients/bluecrossblueshield.png';
-import soulcycle from '../../Images/Projects/Clients/soulcycle.png';
+import atandt from '../../Images/Projects/Clients/at&t.png';
 import zingermans from '../../Images/Projects/Clients/zingermans.png';
-import zoominfo from '../../Images/Projects/Clients/zoominfo.png';
+import boeing from '../../Images/Projects/Clients/boeing.png';
 import washtenawdairy from '../../Images/Projects/Clients/washtenawdairy.png';
 import dematic from '../../Images/Projects/Clients/dematic.png';
 import ge_aerospace from '../../Images/Projects/Clients/ge_aerospace.png';
 import amway from '../../Images/Projects/Clients/amway.png';
 import cityofa2 from '../../Images/Projects/Clients/cityofa2.png';
-import greendoor from '../../Images/Projects/Clients/greendoor.png';
+import mdcr from '../../Images/Projects/Clients/mdcr.png';
 
 const SectionContainer = styled.div`
   width: 100vw;
@@ -61,6 +61,15 @@ const ClientsContainer = styled.div`
   align-items: center;
 `;
 
+const BottomText = styled.p`
+  font-size: 3vmin;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  color: #1e1e1e;
+  margin-top: 1em;
+  text-align: center;
+`;
+
 const ClientLogo = styled.img`
   width: 100%;
   max-height: 10vh;
@@ -73,6 +82,10 @@ function SummarySection() {
     dominos,
     ford,
     gm,
+    boeing,
+    atandt,
+    wholefoods,
+    bluecrossblueshield,
     nba,
     siemens,
     ge_aerospace,
@@ -81,13 +94,9 @@ function SummarySection() {
     michigan,
     cityofa2,
     mosburger,
-    wholefoods,
-    bluecrossblueshield,
-    soulcycle,
     zingermans,
-    zoominfo,
     washtenawdairy,
-    greendoor,
+    mdcr,
     dematic,
   ];
 
@@ -102,7 +111,7 @@ function SummarySection() {
           <ClientLogo key={index} src={client} alt={`Client ${index + 1}`} />
         ))}
       </ClientsContainer>
-
+      <BottomText>AND MANY MORE...</BottomText>
     </SectionContainer>
   );
 }
