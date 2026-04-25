@@ -342,7 +342,7 @@ function App() {
 				<ButtonMenu buttonScrollID={scrollID} />
 
 				<SocialContainer>
-					<Link to="/clients" style={{ textDecoration: "none" }}>
+					<Link to="/Projects" style={{ textDecoration: "none" }}>
 						<InterestContainer
 							style={{
 								visibility: !scrollID ? "visible" : "hidden",
@@ -509,8 +509,8 @@ function App() {
 					</HomeNavContainer>
 				</Link>
 				<LineBreak />
-				<a href="https://themmsi.com" target="_blank" 
-				  rel="noopener noreferrer" style={{ textDecoration: "none" }}>
+				<a href="https://themmsi.com" target="_blank"
+					rel="noopener noreferrer" style={{ textDecoration: "none" }}>
 					<HomeNavContainer>
 						<HomeNavText
 							data-title="MMSI"

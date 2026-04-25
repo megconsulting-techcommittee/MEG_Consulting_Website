@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import logo from "../../Images/Home/logo1.png";
 import logo1 from "../../Images/Home/logo2.png";
 import { useRef, useLayoutEffect, useState, useEffect, useCallback } from "react";
-import {BsList} from "react-icons/bs"
+import { BsList } from "react-icons/bs"
 
 const api = {
   key: "496b8228423df44de2d6d782eb53fb6d",
@@ -160,31 +160,31 @@ function Nav(props) {
   const [scrollDirection,
     setScrollDirection] = useState("you have not scrolled yet");
 
-    const [delayHandler, setDelayHandler] = useState(null);
+  const [delayHandler, setDelayHandler] = useState(null);
 
-    const handleNavigation = useCallback((e) => {
+  const handleNavigation = useCallback((e) => {
 
-      if (y > window.scrollY) {
-        setScrollDirection(1);
-        setDelayHandler(setTimeout(() => {
-          setScrollDirection(0);
-        }, 2000))
-      } 
-      else if (y < window.scrollY) {
+    if (y > window.scrollY) {
+      setScrollDirection(1);
+      setDelayHandler(setTimeout(() => {
         setScrollDirection(0);
-      }
-      clearTimeout(delayHandler);
-      setY(window.scrollY);
-    }, [y]);
-  
-    useEffect(() => {
-  
-      window.addEventListener("scroll", handleNavigation);
-  
-      return () => {
-        window.removeEventListener("scroll", handleNavigation);
-      };
-    }, [handleNavigation]);
+      }, 2000))
+    }
+    else if (y < window.scrollY) {
+      setScrollDirection(0);
+    }
+    clearTimeout(delayHandler);
+    setY(window.scrollY);
+  }, [y]);
+
+  useEffect(() => {
+
+    window.addEventListener("scroll", handleNavigation);
+
+    return () => {
+      window.removeEventListener("scroll", handleNavigation);
+    };
+  }, [handleNavigation]);
 
 
   function vh(v) {
@@ -192,18 +192,18 @@ function Nav(props) {
       document.documentElement.clientHeight,
       window.innerHeight || 0
     );
-    return -1*(v * 100) / h;
+    return -1 * (v * 100) / h;
   }
 
   useScrollPosition(({ currPos }) => {
     var body = document.body,
-    html = document.documentElement;
+      html = document.documentElement;
 
-    var height = Math.max( body.scrollHeight, body.offsetHeight, 
-                       html.clientHeight, html.scrollHeight, html.offsetHeight );
+    var height = Math.max(body.scrollHeight, body.offsetHeight,
+      html.clientHeight, html.scrollHeight, html.offsetHeight);
     var pos = currPos.y
-    if(vh(pos) >= 75){setHideOnScroll(1)}
-    else{setHideOnScroll(0)}
+    if (vh(pos) >= 75) { setHideOnScroll(1) }
+    else { setHideOnScroll(0) }
   }, [hideOnScroll])
 
 
@@ -211,11 +211,11 @@ function Nav(props) {
     // call an API and in the success or failure fill the data buy using setData function
     // it could be like below
     fetch(
-      `https://api.openweathermap.org/data/2.5/onecall?lat=42.2808&lon=-83.7430&exclude=hourly,daily,alerts,minutely&units=imperial&appid=${api.key}`
+      `https://api.openweathermap.org/data/2.5/weather?lat=42.2808&lon=-83.7430&units=imperial&appid=${api.key}`
     )
       .then((res) => res.json())
       .then((result) => {
-        setData(Math.round(result.current.temp));
+        setData(Math.round(result.main.temp));
       })
       .catch((err) => setError(err));
   }, []);
@@ -246,7 +246,7 @@ function Nav(props) {
   };
 
   return (
-    <NavContainer style={{transform: (hideOnScroll !== 1) || (hoverNav) || (scrollDirection) ? "translateY(0vh)":"translateY(-15vh)", paddingBottom: (hideOnScroll !== 1) || (hoverNav) || (scrollDirection) ? "0vh":"10vh", backgroundColor: (vh(y) < -150) && (hoverNav) && props.home && document.documentElement.scrollTop ? "rgba(255,255,255,0.8)":"transparent"}}onMouseOver={()=>{setHoverNav(1)}} onMouseOut={()=>{setHoverNav(0)}}>
+    <NavContainer style={{ transform: (hideOnScroll !== 1) || (hoverNav) || (scrollDirection) ? "translateY(0vh)" : "translateY(-15vh)", paddingBottom: (hideOnScroll !== 1) || (hoverNav) || (scrollDirection) ? "0vh" : "10vh", backgroundColor: (vh(y) < -150) && (hoverNav) && props.home && document.documentElement.scrollTop ? "rgba(255,255,255,0.8)" : "transparent" }} onMouseOver={() => { setHoverNav(1) }} onMouseOut={() => { setHoverNav(0) }}>
       <Link to="/">
         <LogoContainer >
           <LogoImage src={logos[props.color]} />
@@ -317,19 +317,19 @@ function Nav(props) {
           display: props.home ? "felx" : "none"
         }}>
         <DropdownButton>
-          <BsList size={20}/>
+          <BsList size={20} />
         </DropdownButton>
         <DropdownContent>
-          <Link to="/about" style={{ textDecoration: "none", color: "#1e1e1e" }}> 
+          <Link to="/about" style={{ textDecoration: "none", color: "#1e1e1e" }}>
             <DropdownLink>About Us</DropdownLink>
           </Link>
-          <Link to="/projects" style={{ textDecoration: "none", color: "#1e1e1e" }}> 
+          <Link to="/projects" style={{ textDecoration: "none", color: "#1e1e1e" }}>
             <DropdownLink>Our Projects</DropdownLink>
           </Link>
-          <Link to="/team" style={{ textDecoration: "none", color: "#1e1e1e" }}> 
+          <Link to="/team" style={{ textDecoration: "none", color: "#1e1e1e" }}>
             <DropdownLink>Our Team</DropdownLink>
           </Link>
-          <Link to="/application" style={{ textDecoration: "none", color: "#1e1e1e" }}> 
+          <Link to="/application" style={{ textDecoration: "none", color: "#1e1e1e" }}>
             <DropdownLink>Application</DropdownLink>
           </Link>
           <a href="https://themmsi.com" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "#1e1e1e" }}>

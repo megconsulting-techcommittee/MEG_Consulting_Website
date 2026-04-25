@@ -66,7 +66,7 @@ const TitleText = styled.h1`
 function ClientButton(props) {
 
   return (
-    <Link to="/clients">
+    <Link to="/Projects">
       <ButtonContainer
         style={{
           display: props.visible ? "none" : "flex",

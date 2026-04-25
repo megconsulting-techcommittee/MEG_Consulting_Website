@@ -11,8 +11,6 @@ import BDT from "./Pages/BDT";
 import Team from "./Pages/Team";
 import Application from "./Pages/Application";
 import PageNotFound from "./Components/General/PageNotFound";
-import ClientProjects from "./Pages/ClientProjects"
-import Clients from "./Pages/Clients";
 const rootElement = document.getElementById("root");
 
 
@@ -29,8 +27,6 @@ ReactDOM.render(
         <Route path="/team" element={<Team />} />
         <Route path="/application" element={<Application/>} />
         <Route path="/applicants" element={<Application/>} />
-        <Route path="/clients" element={<Clients/>} />
-        <Route path="/client-projects" element={<ClientProjects/>} />
         <Route path="*" element={<PageNotFound/>} />
       </Routes>
     </BrowserRouter>
