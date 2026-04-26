@@ -70,7 +70,7 @@ const Spacer = styled.div`
 function ProjectHome() {
   return (
     <SectionContainer>
-      <NextSection ScrollNext={151} ScrollAlready={0} color="black" />
+      <NextSection ScrollNext={150} ScrollAlready={0} color="black" />
       <TitleTextContainer style={{ transform: "translate(0,75%)" }}>
         <TitleText style={{ transform: "translate(0,100%)" }}>
           OUR CLIENTS

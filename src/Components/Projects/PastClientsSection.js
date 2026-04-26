@@ -1,35 +1,46 @@
 import styled from "styled-components";
 import NextSection from "../General/NextSection";
-import dominos from '../../Images/Projects/Clients/dominos.png';
-import ford from '../../Images/Projects/Clients/ford.png';
-import gm from '../../Images/Projects/Clients/gm.png';
-import lazboy from '../../Images/Projects/Clients/lazboy.png';
-import mcdonalds from '../../Images/Projects/Clients/mcdonalds.png';
-import michigan from '../../Images/Projects/Clients/michigan.png';
-import mosburger from '../../Images/Projects/Clients/mosburger.png';
-import nba from '../../Images/Projects/Clients/nba.png';
-import siemens from '../../Images/Projects/Clients/siemens.png';
-import wholefoods from '../../Images/Projects/Clients/wholefoods.png';
-import bluecrossblueshield from '../../Images/Projects/Clients/bluecrossblueshield.png';
-import atandt from '../../Images/Projects/Clients/at&t.png';
-import zingermans from '../../Images/Projects/Clients/zingermans.png';
-import boeing from '../../Images/Projects/Clients/boeing.png';
-import washtenawdairy from '../../Images/Projects/Clients/washtenawdairy.png';
-import dematic from '../../Images/Projects/Clients/dematic.png';
-import ge_aerospace from '../../Images/Projects/Clients/ge_aerospace.png';
-import amway from '../../Images/Projects/Clients/amway.png';
-import cityofa2 from '../../Images/Projects/Clients/cityofa2.png';
-import mdcr from '../../Images/Projects/Clients/mdcr.png';
+import dominos from "../../Images/Projects/Clients/dominos.png";
+import ford from "../../Images/Projects/Clients/ford.png";
+import gm from "../../Images/Projects/Clients/gm.png";
+import lazboy from "../../Images/Projects/Clients/lazboy.png";
+import mcdonalds from "../../Images/Projects/Clients/mcdonalds.png";
+import michigan from "../../Images/Projects/Clients/michigan.png";
+import mosburger from "../../Images/Projects/Clients/mosburger.png";
+import nba from "../../Images/Projects/Clients/nba.png";
+import siemens from "../../Images/Projects/Clients/siemens.png";
+import wholefoods from "../../Images/Projects/Clients/wholefoods.png";
+import bluecrossblueshield from "../../Images/Projects/Clients/bluecrossblueshield.png";
+import atandt from "../../Images/Projects/Clients/at&t.png";
+import zingermans from "../../Images/Projects/Clients/zingermans.png";
+import boeing from "../../Images/Projects/Clients/boeing.png";
+import washtenawdairy from "../../Images/Projects/Clients/washtenawdairy.png";
+import dematic from "../../Images/Projects/Clients/dematic.png";
+import ge_aerospace from "../../Images/Projects/Clients/ge_aerospace.png";
+import amway from "../../Images/Projects/Clients/amway.png";
+import cityofa2 from "../../Images/Projects/Clients/cityofa2.png";
+import mdcr from "../../Images/Projects/Clients/mdcr.png";
 
 const SectionContainer = styled.div`
   width: 100vw;
-  min-height: 100vh;
-  background-color: #E0CFF2;
+  height: 125vh;
+  background-color: #D0D1F2;
+  box-sizing: border-box;
+  position: sticky;
+  top: -1px;
+  overflow: hidden;
+`;
+
+const ScrollWrapper = styled.div`
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  position: relative;
+  padding-top: 12vh;
+  box-sizing: border-box;
 `;
 
 const TextContainer = styled.div`
@@ -76,7 +87,7 @@ const ClientLogo = styled.img`
   object-fit: contain;
 `;
 
-function SummarySection() {
+function PastClientsSection() {
   const clients = [
     mcdonalds,
     dominos,
@@ -102,18 +113,19 @@ function SummarySection() {
 
   return (
     <SectionContainer>
-      <NextSection ScrollNext={151} ScrollAlready={450} color="black"></NextSection>
-      <TextContainer>
-        <TitleText>WHO WE'VE WORKED WITH</TitleText>
-      </TextContainer>
-      <ClientsContainer>
-        {clients.map((client, index) => (
-          <ClientLogo key={index} src={client} alt={`Client ${index + 1}`} />
-        ))}
-      </ClientsContainer>
-      <BottomText>AND MANY MORE...</BottomText>
+      <ScrollWrapper>
+        <TextContainer>
+          <TitleText>WHO WE'VE WORKED WITH</TitleText>
+        </TextContainer>
+        <ClientsContainer>
+          {clients.map((client, index) => (
+            <ClientLogo key={index} src={client} alt={`Client ${index + 1}`} />
+          ))}
+        </ClientsContainer>
+        <BottomText>AND MANY MORE...</BottomText>
+      </ScrollWrapper>
     </SectionContainer>
   );
 }
 
-export default SummarySection;
+export default PastClientsSection;

@@ -66,4 +66,4 @@ This website was made by MEG members. Are you interested in website development 
 
 ## Issues
 
-If you see any issues on the website or source code email gengb@umich.edu
+If you see any issues on the website or source code email wangtim@umich.edu

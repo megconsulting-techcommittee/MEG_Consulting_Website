@@ -13,7 +13,7 @@ const SectionContainer = styled.div`
   top: -1px;
   max-width: 100%;
   @media (max-aspect-ratio: 1233/870) {
-    display:none;
+    display: none;
   }
 `;
 
@@ -60,6 +60,29 @@ const LineBreak = styled.div`
   height: 0;
 `;
 
+const SectionLabelRow = styled.div`
+  width: 100%;
+  padding-inline: 4vw;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1.5vh;
+  font-family: futura-pt, sans-serif;
+  font-size: 1.5vmin;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #1e1e1e;
+  opacity: 0.7;
+  font-weight: 500;
+`;
+
+const Rule = styled.span`
+  width: 24px;
+  height: 1px;
+  background: #1e1e1e;
+  opacity: 0.4;
+`;
+
 const TitleText = styled.h1`
   display: inline-block;
   width: fit-content;
@@ -90,42 +113,34 @@ const OutlineText = styled.h1`
   -webkit-text-stroke: 0.03em #1e1e1e;
 `;
 
-const InvisibleTextSmall = styled.h1`
-  display: inline-block;
-  width: fit-content;
-  font-size: 6vmin;
-  font-family: futura-pt, sans-serif;
-  margin: 0;
-  padding: 0;
-  font-weight: 900;
-  color: transparent;
-`;
-
-const InvisibleTextLarge = styled.h1`
-  display: inline-block;
-  width: fit-content;
-  font-size: 8vmin;
-  font-family: futura-pt, sans-serif;
-  margin: 0;
-  padding: 0;
-  font-weight: 900;
-  color: transparent;
-`;
-
-const InvisibleTextTiny = styled.h1`
-  display: inline-block;
-  width: fit-content;
-  font-size: 1vmin;
-  font-family: futura-pt, sans-serif;
-  margin: 0;
-  padding: 0;
-  font-weight: 900;
-  color: transparent;
-`;
-
-const Spacer = styled.div`
+const CTARow = styled.div`
   width: 100%;
-  height: 50vh;
+  padding-inline: 4vw;
+  padding-top: 4vh;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: futura-pt, sans-serif;
+  font-size: 1.6vmin;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+`;
+
+const PrimaryCTA = styled.a`
+  padding: 14px 28px;
+  background: #1e1e1e;
+  color: #E0CFF2;
+  text-decoration: none;
+  font-weight: 600;
+`;
+
+const EmailCTA = styled.a`
+  padding: 14px 0;
+  color: #1e1e1e;
+  text-decoration: none;
+  border-bottom: 1.5px solid #1e1e1e;
+  font-weight: 500;
 `;
 
 function BuildingSection() {
@@ -134,6 +149,7 @@ function BuildingSection() {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   function vh(v) {
@@ -148,11 +164,32 @@ function BuildingSection() {
     <SectionContainer>
       <NextSection ScrollNext={151} ScrollAlready={126} color="white" />
       <TextContainer>
+        <SectionLabelRow>
+          <span>01</span>
+          <Rule />
+          <span>Clients &amp; Projects</span>
+        </SectionLabelRow>
+
         <TitleText>EXPLORE YOUR </TitleText>
         <TitleText>BUSINESS POTENTIAL</TitleText>
         <LineBreak />
-        <OutlineText>We are a multidisciplinary student-led, premier consulting group at the University of Michigan dedicated to serving the local and global community. Collaborate with companies ranging from local nonprofits to Fortune 500s, spanning industries like retail, sports, and healthcare. Our diverse clients and broad range of project scopes, such as marketing campaigns, talent acquisition, and UX design, strive to tackle relevant business challenges in the community while equipping our members with the essential analytical and presentational skills to succeed in their chosen fields. Our analysts provide research-backed recommendations through extensive market research and data analysis in order to promote strategies aligning with the company's unique goals and mission.</OutlineText>
+
+        <OutlineText>
+          MEG is a multidisciplinary, student-led consulting group at the
+          University of Michigan serving the local and global community. We
+          empower Fortune 500s, nonprofits, and Ann&nbsp;Arbor businesses with
+          research-backed recommendations across strategy, marketing,
+          technology, and operations.
+        </OutlineText>
+
+        <CTARow>
+          <PrimaryCTA href="mailto:meg.eboard@umich.edu">Start a project →</PrimaryCTA>
+          <EmailCTA href="mailto:meg.eboard@umich.edu">
+            meg.eboard@umich.edu
+          </EmailCTA>
+        </CTARow>
       </TextContainer>
+
       <ImageContainer>
         <ImageCoverContainer>
           <ImageCover
