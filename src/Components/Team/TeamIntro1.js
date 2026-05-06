@@ -8,8 +8,8 @@ const SectionContainer = styled.div`
   height: 150vh;
   background-image: url(${jump});
   background-repeat: no-repeat;
-  background-size: auto 80vh;
-  background-position: center 5%;
+  background-size: auto 68vh;
+  background-position: center 21%;
   display: flex;
   justify-content: center;
   align-items: center;
