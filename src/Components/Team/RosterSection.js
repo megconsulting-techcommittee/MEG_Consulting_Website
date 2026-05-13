@@ -432,10 +432,12 @@ function RosterSection() {
 
 	];
 
+	{/*
 	const freshmanData = [
 
 
 	];
+*/}
 
 	const sophomoreData = [
 		{
@@ -1006,6 +1008,8 @@ function RosterSection() {
 				))}
 
 			</PositionContainer>
+
+			{/*
 			<PositionContainer>
 				<SmallSpacer />
 				<TextContainer>
@@ -1055,7 +1059,7 @@ function RosterSection() {
 					</a>
 				))}
 			</PositionContainer>
-
+*/}
 			<PositionContainer>
 				<SmallSpacer />
 				<TextContainer>
