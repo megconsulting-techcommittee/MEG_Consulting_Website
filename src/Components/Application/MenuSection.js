@@ -44,7 +44,7 @@ const GridContainer = styled.div`
 
 const LogoContainer = styled.div`
 	outline: solid 3px #1e1e1e;
-	height: 27vh;
+	height: 28vh;
 	width: 20vw;
 	margin: 1.5px;
 	display: flex;
@@ -227,50 +227,56 @@ const SoonContainer = styled.div`
 
 function MenuSection() {
 	const eventDates = [
-		"1/8/2026, 5:30 PM",
-		"1/12/2026, 4:00 PM",
-		"1/18/2026, 3:00 PM",
-		"1/23/2026, 6:00 PM",
-		"1/25/2026, 5:00 PM",
-		"1/26/2026, 11:59 PM"
+		"9/2/2026, 3:00 PM",
+		"9/8/2026, 8:00 PM",
+		"9/9/2026, 5:30 PM",
+		"9/13/2026, 10:30 AM",
+		"9/18/2026, 5:00 PM",
+		"9/20/2026, 1:00 PM",
+		"9/21/2026, 11:59 PM"
 	];
 	const eventImages = [
 		central,
-		union,
-		mass,
+		ross,
+		ross,
+		ross,
 		coffee,
 		dei,
 		apply,
 	];
 	const eventName = [
+		"Festifall",
+		"Intro to Consulting",
 		"Meet the Clubs",
-		"Winterfest",
 		"Mass Meeting",
 		"Speed Dating",
-		"DEI/Career Panel",
+		"DEI/Career Event",
 		"Application Due",
 	];
 	const eventLocation = [
-		"Table 45",
-		"Union Ideahub",
-		"Blau Colloquium",
-		"R0320 & R0420",
-		"Blau B0570",
+		"Diag Table C-12",
+		"Robertson Auditorium",
+		"Winter Garden",
+		"Blau B1580",
+		"TBA",
+		"TBA",
 		"Online",
 	];
 	const eventTime = [
-		"1/8 at 5:30-7:30 PM",
-		"1/12 at 4-7 PM",
-		"1/18 at 3-4 PM",
-		"1/23 at 6-9 PM",
-		"1/23 at 6-9 PM",
-		"1/26 at 11:59 PM",
+		"9/2 at 3-5 PM",
+		"9/8 at 8-9 PM",
+		"9/9 at 5:30-7:30 PM",
+		"9/13 at 10:30-11:30 AM",
+		"9/18 at 5-8 PM",
+		"9/20 at 1-2 PM",
+		"9/21 at 11:59 PM",
 	];
 
 	function eventDateDetector() {
 		const d = Date.parse(
 			new Date().toLocaleString("en-US", { timeZone: "America/New_York" })
 		);
+
 		//For debugging:
 		//const d = Date.parse("9/20/2022")
 		for (let i = 0; i < eventDates.length; i++) {
