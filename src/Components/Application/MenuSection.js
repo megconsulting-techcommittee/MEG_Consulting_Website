@@ -256,7 +256,7 @@ function MenuSection() {
 	const eventLocation = [
 		"Diag Table C-12",
 		"Robertson Auditorium",
-		"Winter Garden",
+		"Winter Garden Table 39",
 		"Blau B1580",
 		"TBA",
 		"TBA",
@@ -264,7 +264,7 @@ function MenuSection() {
 	];
 	const eventTime = [
 		"9/2 at 3-5 PM",
-		"9/8 at 8-9 PM",
+		"9/8 at 8:00-9:30 PM",
 		"9/9 at 5:30-7:30 PM",
 		"9/13 at 10:30-11:30 AM",
 		"9/18 at 5-8 PM",
@@ -276,7 +276,6 @@ function MenuSection() {
 		const d = Date.parse(
 			new Date().toLocaleString("en-US", { timeZone: "America/New_York" })
 		);
-
 		//For debugging:
 		//const d = Date.parse("9/20/2022")
 		for (let i = 0; i < eventDates.length; i++) {
