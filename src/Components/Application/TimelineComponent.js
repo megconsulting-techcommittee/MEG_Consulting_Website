@@ -82,11 +82,11 @@ const TimelineComponent = () => {
             title: "Intro to Consulting \n(with General Motors)",
             location: "Robertson Auditorium",
             date: "Sep 8th",
-            time: "8:00-9:00 PM"
+            time: "8:00-9:30 PM"
         },
         {
             title: "Meet the Clubs",
-            location: "Winter Garden",
+            location: "Winter Garden Table 39",
             date: "Sep 9th",
             time: "5:30-7:30 PM"
         },
