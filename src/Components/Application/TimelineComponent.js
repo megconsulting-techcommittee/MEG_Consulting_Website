@@ -2,23 +2,29 @@ import React from 'react';
 import styled from 'styled-components';
 
 const TimelineContainer = styled.div`
-    height: 28vh;
-    width: 57vw;
-    outline: solid 3px #1e1e1e;
-    margin: 0.15vh;
-    padding-right: 0.2vw;
-    background-color: transparent; /* Transparent background */
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 28vh;
+  width: 57vw;
+  outline: solid 3px #1e1e1e;
+  margin: 0.15vh;
+  padding-right: 0.2vw;
+  background-color: transparent;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    @media (max-aspect-ratio: 1217/835) {
-        width: 79vw;
-    }
-    @media (max-aspect-ratio: 610/835) {
-        padding-right: 1vw;
-    }
+  @media (max-aspect-ratio: 1217/835) {
+    width: 79vw;
+  }
+
+  /* 👇 Mobile Portrait Override */
+  @media (max-width: 768px) and (orientation: portrait) {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    padding: 20px 10px;
+    overflow-x: auto; /* Allows smooth horizontal scrolling if text is long */
+  }
 `;
 
 const Timeline = styled.div`
