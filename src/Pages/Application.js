@@ -12,6 +12,7 @@ import ReactGA from "react-ga4";
 import rg4js from "raygun4js";
 import PracticeSection from "../Components/Application/PracticeSection";
 import ResizePractice from "../Components/Application/ResizePractice";
+import FAQSection from "../Components/Application/FAQSection";
 
 function Application (){
 
@@ -32,6 +33,7 @@ function Application (){
             <ApplicationHome/>
             <LookingSection/>
             <MenuSection/>
+            <FAQSection/>
             <TipIntroSection/>
             <TipSection/>
             <PracticeSection/>
