@@ -41,10 +41,10 @@ const RECRUITMENT_EVENTS = [
   {
     id: 5,
     title: "Speed Dating",
-    location: "TBA",
+    location: "B1560 & B1570",
     date: "Sep 18th",
-    endIso: "2026-09-18T20:00:00",
-    time: "5:00 - 8:00 PM",
+    endIso: "2026-09-18T21:30:00",
+    time: "6:30 - 9:30 PM",
     description: "Fast-paced Q&A rounds with fun questions to help us get to know you personally!",
     signUpLink: "https://www.signupgenius.com/go/10C0A4FA8A92CA1FEC61-65123566-meg#/", 
   },
