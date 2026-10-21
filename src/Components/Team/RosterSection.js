@@ -647,15 +647,6 @@ function RosterSection() {
 			url: "https://www.linkedin.com/in/matthew-cui-094259308/",
 		},
 		{
-			name: "Qian Yun Zhang",
-			image0: qianyunzhang0,
-			image1: qianyunzhang1,
-			position: "Analyst",
-			major: "CS & Math 2029",
-			ID: 173,
-			url: "https://www.linkedin.com/in/qian-yun-zhang-555291346/",
-		},
-		{
 			name: "Rhea Kavuru",
 			image0: rheakavuru0,
 			image1: rheakavuru1,
